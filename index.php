@@ -20,6 +20,7 @@
     		<?php include("scripts/bouton.php");?>
     	</div>
     	<div id="queryDisplay">
+    		<textarea class="queryField"></textarea>
     	</div>
     	<div id="queryResult">
     		<div id="calculate"></div>
