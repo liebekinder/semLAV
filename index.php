@@ -23,7 +23,7 @@
     		<textarea id="queryTextArea" class="queryField" readonly></textarea>
     	</div>
     	<div id="queryResult">
-    		<div id="calculate"><button> Evaluation de la reqete!</button></div>
+    		<div id="calculate"><button class="executeButton" onclick="getQueryAnswers();"> Evaluation de la requete!</button></div>
     		<div id="result"></div>
     	</div>
     </div>

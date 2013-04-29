@@ -22,4 +22,14 @@ function getQueryContent($queryName){
 	}
 	return $Fichier;
 }
+
+function getQueryAnswers($queryName){
+	//execute semlavBerlindata
+// 	$output = shell_exec(". /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh");
+	$output = shell_exec("ls");
+	
+	if($output = NULL ) return "le retour de shell_exec est nul";
+	else if($output == "" || $output == "\n") return "le retour de shell_exec est vide";
+	else return $output;
+}
 ?>

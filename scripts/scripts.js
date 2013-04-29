@@ -74,6 +74,66 @@ function actualiserPage(){
 	}
 }
 
+function getQueryAnswers(){
+	// Moteur ajax concernant la partie gestionnaire de la page: recherche du dossier à afficher, genération du html et renvoie au client
+	//contient aussi les diverses modification qu'on peut apporter aux fichiers: affichage, compression, suppression...
+	/* ------ MOTEUR AJAX -----------*/
+	
+	//creation d'un objet XHR
+	objetXHR2 = null;
+	objetXHR2 = creationXHR();
+	
+	//TODO
+	//il faut détecter quelle requete est a effectuer. mettre la valeur dans val
+	val = "query1";
+	
+	//tromperie pour le cache
+	var temps = new Date().getTime();
+	var parametres = "query=" + codeVariable(val) + "&anticache=" + temps;
+		
+	//configuration de la requete en GET ert synchrone
+	objetXHR2.open("get","scripts/getQueryAnswers.php?" + parametres,true);
+	
+	//configuration de la fonction du traitement asynchrone
+	objetXHR2.onreadystatechange = actualiserPage2;
+	
+	//chargement du loader avant que la requete soit executee et on cache le tableau
+	gebi("result").style.visibility = "hidden";
+	
+	//envoie de la requete
+	objetXHR2.send(null);
+	
+	/* ------ FIN MOTEUR AJAX -------*/
+}
+
+function actualiserPage2(){
+	if(objetXHR2.readyState == 4){
+		if(objetXHR2.status == 200){
+			
+			//recuperation des resultat dans un tableau
+			var nouveauResultat = objetXHR2.responseText;
+			
+			//modification de la page
+			gebi("result").innerHTML = nouveauResultat;
+			
+			//on cache le loader et on debloque le bouton et on affiche le resultat
+			gebi("result").style.visibility = "visible";
+		}
+		else{
+			gebi("result").innerHTML = "erreur serveur: "+ objetXHR2.status +" - "+ objetXHR2.statusText;
+			gebi("result").style.visibility = "visible";
+			
+			//annule la requete en cours
+			objetXHR2.abort();
+			objetXHR2 = null;
+		}
+	}
+}
+
+//-------------------------------------------------------------------//
+//		fonctions additionnelles									//
+//-----------------------------------------------------------------//
+
 function supprimerContenu(element){
 	if(element != null){
 		while(element.firstChild) element.removeChild(element.firstChild);

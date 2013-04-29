@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "debut du traitement";
 GUNPATH=`pwd | rev | cut -d"/" -f 4- | rev`
 SETUPS='views'
 QUERIES=`seq 6 6`
@@ -17,4 +17,7 @@ for setup in $SETUPS ;do
 done
 rm configD.properties.bkp
 rm configD.properties
+
+echo "fin du traitement";
+
 #/home/seb/Documents/TER/V3/gun2012/
