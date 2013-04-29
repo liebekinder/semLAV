@@ -1,8 +1,7 @@
 #!/bin/bash
-
 GUNPATH=`pwd | rev | cut -d"/" -f 4- | rev`
 SETUPS='views'
-QUERIES=`seq 6 6`
+QUERIES=`seq $2 $3`
 
 cp configD.properties.base configD.properties
 sed -i".bkp" "s|GUNPATH|$GUNPATH|" configD.properties
@@ -17,4 +16,5 @@ for setup in $SETUPS ;do
 done
 rm configD.properties.bkp
 rm configD.properties
+
 #/home/seb/Documents/TER/V3/gun2012/

@@ -14,6 +14,12 @@ textarea{
 	
 }
 
+#imageWait{
+	display:block;
+	margin:auto;
+	visibility: hidden;
+}
+
 .sendButton {
   display: block;
   font-size: 16pt;
@@ -39,7 +45,7 @@ textarea{
 }
 .executeButton{
   display: block;
-  font-size: 20pt;
+  font-size: 16pt;
   position:relative;
   width:290px;
   height:40px;
