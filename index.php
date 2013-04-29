@@ -7,7 +7,7 @@
 	<link type="text/css" rel="stylesheet" href="stylesheets/ui-lightness/jquery-ui-1.10.2.custom.css"/>
 	<script type="text/javascript" src="scripts/JQuery/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="scripts/JQuery/jquery-ui-1.10.2.custom.js"></script>
-	<script type="text/javascript" language="javascript" src="scripts/scripts.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
 		<script type="text/javascript">
 		$(function () {
 			$("#querySelector").buttonset();
