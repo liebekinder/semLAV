@@ -99,6 +99,7 @@ function getQueryAnswers(){
 	
 	//chargement du loader avant que la requete soit executee et on cache le tableau
 	gebi("result").style.visibility = "hidden";
+	gebi("imageWait").style.visibility = "visible";
 	
 	//envoie de la requete
 	objetXHR2.send(null);
@@ -122,6 +123,7 @@ function actualiserPage2(){
 		else{
 			gebi("result").innerHTML = "erreur serveur: "+ objetXHR2.status +" - "+ objetXHR2.statusText;
 			gebi("result").style.visibility = "visible";
+			gebi("imageWait").style.visibility = "hidden";
 			
 			//annule la requete en cours
 			objetXHR2.abort();

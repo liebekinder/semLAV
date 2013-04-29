@@ -24,7 +24,7 @@
     	</div>
     	<div id="queryResult">
     		<div id="calculate"><button class="executeButton" onclick="getQueryAnswers();"> Evaluation de la requete!</button></div>
-    		<div id="result"></div>
+    		<div id="result"><img id="imageWait" src="media/wait.gif" alt="wait"/></div>
     	</div>
     </div>
     

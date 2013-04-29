@@ -72,8 +72,8 @@ public class Catalog {
             ProcessBuilder pb = new ProcessBuilder(parametres);
 	
 	//log append
-	File log = new File("/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/logFile.log");
-	pb.redirectOutput(ProcessBuilder.Redirect.appendTo(log));
+//	File log = new File("/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/logFile.log");
+//	pb.redirectOutput(ProcessBuilder.Redirect.appendTo(log));
 	
 	
             pb.directory(new File (this.execDir));

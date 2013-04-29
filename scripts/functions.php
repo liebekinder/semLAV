@@ -25,11 +25,16 @@ function getQueryContent($queryName){
 
 function getQueryAnswers($queryName){
 	//execute semlavBerlindata
-// 	$output = shell_exec(". /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh");
-	$output = shell_exec("ls");
+// 	echo getcwd();
+	putenv("GUNPATH = /var/www/semLAV/code/");
+	chdir("/var/www/semLAV/code/queryExecutor/src");
+// 	echo getcwd();
+	$output = shell_exec("sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh 1 1");
+// 	$output = shell_exec("ls");
 	
-	if($output = NULL ) return "le retour de shell_exec est nul";
-	else if($output == "" || $output == "\n") return "le retour de shell_exec est vide";
-	else return $output;
+	if($output == NULL ) return "le retour de shell_exec est nul";
+	else if($output == "") return "le retour de shell_exec est vide";
+	else if($output == "\n") return "le retour de shell_exec est retour ligne";
+	else return nl2br($output);
 }
 ?>
