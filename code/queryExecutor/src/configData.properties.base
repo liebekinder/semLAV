@@ -1,0 +1,21 @@
+# input
+# dataSetFile=GUNPATH/code/expfiles/berlinData/datasets/dataset.nt
+# indexesFolder=GUNPATH/code/expfiles/berlinData/sparqlIndexes
+# queriesFolder=GUNPATH/code/expfiles/berlinData/sparqlQueries
+dataSetFile=GUNPATH/code/expfiles/berlinData/DATASET/datasets/dataset.nt
+indexesFolder=GUNPATH/code/expfiles/berlinData/DATASET/sparqlIndexes
+queriesFolder=GUNPATH/code/expfiles/berlinData/DATASET/sparqlQueries
+factor=1
+n=7
+# output data
+sparqlViewsFolder=GUNPATH/code/expfiles/berlinData/DATASET/views/viewsSparql
+n3ViewsFolder=GUNPATH/code/expfiles/berlinData/DATASET/views/viewsN3
+answersFolder=GUNPATH/code/expfiles/berlinData/DATASET/answers
+# output mappings
+mappingsFile=GUNPATH/code/expfiles/berlinData/DATASET/views/mappingsBerlin
+conjunctiveQueriesFolder=GUNPATH/code/expfiles/berlinData/DATASET/conjunctiveQueries
+constantsFile=GUNPATH/code/expfiles/berlinData/DATASET/constantsFile
+
+
+#n3OntologyFile=GUNPATH/code/expfiles/berlinData/ontology.n3
+#ontologyFile=GUNPATH/code/expfiles/berlinData/ontology

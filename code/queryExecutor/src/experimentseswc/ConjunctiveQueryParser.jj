@@ -1,0 +1,108 @@
+options {
+  STATIC = false;
+}
+
+PARSER_BEGIN(ConjunctiveQueryParser)
+package experimentseswc;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.ArrayList;
+public class ConjunctiveQueryParser {
+
+}
+
+PARSER_END(ConjunctiveQueryParser)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+}
+
+TOKEN :
+{
+  < IF: ":-" >
+|
+  < COMMA: "," >
+|
+  < LPAREN: "(" >
+|
+  < RPAREN: ")" >
+|
+  < ID: ["a"-"z","A"-"Z", "_"](["a"-"z","A"-"Z","_","0"-"9","-"])* >
+}
+
+ArrayList<ConjunctiveQuery> ParseMappings():
+{ ConjunctiveQuery m;
+  ArrayList<ConjunctiveQuery> ms;
+}
+{ 
+    m=ParseConjunctiveQuery() ms=ParseMappingsOpt() 
+    { ms.add(0, m);
+      return ms;
+    }
+}
+
+ArrayList<ConjunctiveQuery> ParseMappingsOpt():
+{  ArrayList<ConjunctiveQuery> ms;
+}
+{   ms=ParseMappings()
+    { return ms; }
+|   
+    { return new ArrayList<ConjunctiveQuery>(); }
+}
+
+ConjunctiveQuery ParseConjunctiveQuery():
+{ Predicate h;
+  ArrayList<Predicate> b;
+}
+{ 
+    h=Predicate() <IF> b=PredicateList() 
+    { return new ConjunctiveQuery(h, b); }
+}
+
+Predicate Predicate():
+{ Token n;
+  ArrayList<String> al;
+}
+{	n=<ID> <LPAREN> al=ArgumentList() <RPAREN>
+	{ return new Predicate(n.image, al); }
+}
+
+ArrayList<Predicate> PredicateList():
+{ ArrayList<Predicate> pl;
+  Predicate p;
+}
+{ p=Predicate() pl=PredicateListOpt()
+	{ pl.add(0, p);
+	  return pl;
+	}
+}
+
+ArrayList<Predicate> PredicateListOpt():
+{ ArrayList<Predicate> pl;
+}
+{   <COMMA> pl=PredicateList()
+    { return pl; }
+|
+    { return new ArrayList<Predicate>(); }
+}
+
+ArrayList<String> ArgumentList():
+{ ArrayList<String> al;
+  Token a;
+}
+{	a=<ID> al=ArgumentListOpt()
+	{ al.add(0, a.image); 
+	  return al; }
+}
+
+ArrayList<String> ArgumentListOpt():
+{ ArrayList<String> al;  }
+{
+    <COMMA> al=ArgumentList()
+    { return al; }
+|   
+    { return new ArrayList<String>(); }
+}

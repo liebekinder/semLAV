@@ -1,0 +1,12 @@
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc:<http://purl.org/dc/elements/1.1/>
+SELECT * 
+WHERE {
+    ?Offer bsbm:product ?Product .
+    ?Offer bsbm:vendor ?Vendor .
+    ?Offer dc:publisher ?Vendor .
+    ?Vendor bsbm:country <http://downlode.org/rdf/iso-3166/countries#US> .
+    ?Offer bsbm:deliveryDays ?DeliveryDays .
+    ?Offer bsbm:price ?Price .
+    ?Offer bsbm:validTo ?Date .
+}

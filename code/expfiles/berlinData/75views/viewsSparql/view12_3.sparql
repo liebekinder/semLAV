@@ -1,0 +1,14 @@
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc:<http://purl.org/dc/elements/1.1/>
+SELECT *
+WHERE {
+    ?Product_12_3 rdfs:label ?Label_12_3 .
+    ?Product_12_3 rdfs:comment ?Comment_12_3 .
+    ?Product_12_3 bsbm:producer ?P_12_3 .
+    ?P_12_3 rdfs:label ?Producer_12_3 .
+    ?Product_12_3 dc:publisher ?P_12_3 .
+    ?Product_12_3 bsbm:productPropertyTextual3 ?PropertyTextual3_12_3 .
+    ?Product_12_3 bsbm:productPropertyNumeric3 ?PropertyNumeric3_12_3 .
+}
+

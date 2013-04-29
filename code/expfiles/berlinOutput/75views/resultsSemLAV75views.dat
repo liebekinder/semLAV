@@ -1,0 +1,43 @@
+# /home/seb/Documents/TER/V3/gun2012//code/expfiles/berlinOutput/75views/resultsSemLAV75views.dat
+# Query	Execution Time first answer	Execution Time to achieve recall 1.00 (msecs)	Execution Time to include all the relevant views (msecs)
+9	0	N.A.	660
+# /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinOutput/75views/resultsSemLAV75views.dat
+# Query	Execution Time first answer	Execution Time to achieve recall 1.00 (msecs)	Execution Time to include all the relevant views (msecs)
+8	0	N.A.	1680
+18	0	N.A.	2033
+17	0	N.A.	1354
+4	1311	N.A.	1649
+9	0	N.A.	691
+10	0	N.A.	2227
+6	0	N.A.	1510
+3	N.A.	N.A.	1402
+5	1368	N.A.	1872
+12	0	N.A.	2127
+11	0	N.A.	1174
+14	0	N.A.	1771
+16	0	N.A.	1521
+2	0	N.A.	2538
+13	0	N.A.	2182
+7	N.A.	N.A.	1345
+1	0	N.A.	4085
+15	0	N.A.	2332
+# /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinOutput/75views/resultsSemLAV75views.dat
+# Query	Execution Time first answer	Execution Time to achieve recall 1.00 (msecs)	Execution Time to include all the relevant views (msecs)
+8	0	N.A.	2238
+18	0	N.A.	5204
+17	0	N.A.	3199
+4	1336	N.A.	2111
+9	0	N.A.	687
+10	0	N.A.	3101
+6	0	N.A.	2058
+3	N.A.	N.A.	1443
+5	1358	N.A.	3272
+12	0	N.A.	2811
+11	0	N.A.	1927
+14	0	N.A.	2123
+16	0	N.A.	2357
+2	0	N.A.	2876
+13	1357	N.A.	2496
+7	N.A.	N.A.	1429
+1	0	N.A.	9048
+15	0	N.A.	4184

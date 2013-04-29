@@ -1,0 +1,15 @@
+view1_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/hotel/wrapperHotel.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view1_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view1_0.n3
+
+view2_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/hotel/wrapperHotel.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view2_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view2_0.n3
+
+view3_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/hotel/wrapperHotel.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view3_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view3_0.n3
+
+view5_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/activite/wrapperActivite.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view5_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view5_0.n3
+
+view6_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/activite/wrapperActivite.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view6_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view6_0.n3
+
+view7_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/activite/wrapperActivite.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view7_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view7_0.n3
+
+view8_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/activite/wrapperActivite.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view8_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view8_0.n3
+
+view9_0 =/home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/dbpedia/wrapperDbpedia.jar, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/views/viewsSparql/view8_0.sparql, /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/n3dir/view8_0.n3

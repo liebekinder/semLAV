@@ -1,0 +1,86 @@
+Instructions to use SemLAV
+--------------------------
+
+What do you need?
+-----------------
+- Queries in SPARQL
+- Views in SPARQL
+- .n3 files that contains the information of each view (see 3, if you don't have these).
+- Conjunctive queries associated with the SPARQL queries (see 1, if you don't have these).
+- Mappings files associated to the SPARQL views (see 1, if you don't have these).
+- Queries answers, and a file that contains the answer size for each query 
+  (see 2, if you don't have these).
+
+Configuration
+-------------
+Consider that the variable GUNPATH have the folder path where these instructions are.
+See the file: $GUNPATH/code/queryExecutor/src/configD.properties.base, and organize
+the files according to this; or if you prefer other file organization, change this
+file according to that. Note that some paths depend on GUNPATH variable that is changed 
+from runBerlinSemLAV.sh script (you also should change this if you are using other dataset)
+
+Compilation:
+-----------
+from $GUNPATH/code/queryExecutor/src/:
+javac -cp ".:../lib2/*" experimentseswc/*.java
+javac -cp ".:../lib2/*" *.java
+
+Execution
+---------
+Open the file $GUNPATH/code/queryExecutor/src/runBerlinSemLAV.sh, and modify it according
+to the experiment to want to run.
+The variables SETUP and QUERIES indicate which setups and queries you want to run.
+For example, if you want to run query 4 with 75 and 300 views setups, these should be
+set as:
+SETUPS="75views 300views"
+QUERIES="4"
+or if you want to run all queries with the 150 setup as:
+SETUPS="150views"
+QUERIES=`seq 1 18`
+
+use the script as:
+from $GUNPATH/code/queryExecutor/src/, use the script as:
+source runBerlinSemLAV.sh
+
+(1) Generating the conjunctive queries and mappings files
+---------------------------------------------------------
+Use the java class generateMappings, for that you should do:
+cp configData.properties.base configData.properties
+sed -i".bkp" "s|GUNPATH|$GUNPATH|" configData.properties
+where variable $GUNPATH have the path of the gun2012 folder.
+and modify the properties: queriesFolder, sparqlViewsFolder, mappingsFile, 
+conjunctiveQueriesFolder, constantsFile, factor and n.
+Note that 'factor' and 'n' are used to access the views since the used convention name
+is view_i_j, where 1 <= i <= n, 0 <= j < factor.
+
+from $GUNPATH/code/queryExecutor/src:
+java -cp ".:../lib2/*" experimentseswc/generateMappings
+
+(2) Generating queries answers
+------------------------------
+Use the java class generateAnswers, for that you should do:
+cp configData.properties.base configData.properties
+sed -i".bkp" "s|GUNPATH|$GUNPATH|" configData.properties
+where variable $GUNPATH have the path of the gun2012 folder.
+and modify the properties: queriesFolder, sparqlViewsFolder, 
+n3ViewsFolder and answersFolder.
+
+from $GUNPATH/code/queryExecutor/src:
+java -cp ".:../lib2/*" experimentseswc/generateAnswers
+
+
+(3) Generating the .n3 during execution
+---------------------------------------
+Modify the file $GUNPATH/code/queryExecutor/src/configD.properties.base, so that it
+includes:
+contactsources=true
+Modify the file $GUNPATH/code/queryExecutor/src/code/Catalog.java, method:
+public Model getModel(String str), the body of the conditional so that instead of executing the script downloadresult.sh it uses the script that contact the wrappers and save the returned triples in the file this.execDir+str+".n3", where 
+this.execDir is the directory given by variables path and n3Dir in 'path + "/" n3Dir' from $GUNPATH/code/queryExecutor/src/configD.properties.base.
+
+###Here: /home/seb/Documents/TER/V3/gun2012/code/expfiles/berlinData/DATASET/75views/viewsN3/
+
+And str is the name of the view, if called without constant arguments, 
+or corresponds to a string of the form: viewName(_T)+, with T = 'V' for variable argument, 
+or T=ctte for constant argument, for example for view1 used as view1(X, Y, fr, Z) it will be view1_V_V_fr_V, for view1 used as view2(monday, X, Y) it will be view1_monday_V_V, and for view1 used as view2(X, Y, Z) it will be view1
+

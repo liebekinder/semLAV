@@ -1,0 +1,7 @@
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+SELECT *
+WHERE {
+    ?Review bsbm:reviewFor ?Product .
+    ?Review bsbm:rating1 ?Rating1 .
+}
+

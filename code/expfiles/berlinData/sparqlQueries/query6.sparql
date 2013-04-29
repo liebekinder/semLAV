@@ -1,0 +1,9 @@
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX rev:<http://purl.org/stuff/rev#>
+SELECT * 
+WHERE {
+    ?Review bsbm:reviewFor ?Product .
+    ?Review rev:reviewer ?Reviewer .
+    ?Review bsbm:rating1 ?Rating1 .
+}
+

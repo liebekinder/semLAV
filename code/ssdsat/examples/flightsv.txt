@@ -1,0 +1,3 @@
+national(X1,X2) :- flight(X1,X2),uscity(X1),uscity(X2)
+oneway(X3,X4) :- flight(X3,X4)
+onestop(X1,X3) :- flight(X1,X2),flight(X2,X3)

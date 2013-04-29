@@ -12,7 +12,8 @@
 
 	if(isset($_REQUEST['query'])){
 		if($_REQUEST['query']){
-			echo "success!";
+			include_once 'functions.php';
+			echo getQueryContent($_REQUEST['query']);
 		}
 	else{
 		echo "échec de l'éxecution de la requète AJAX. La requete GET est empty";

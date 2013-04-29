@@ -1,0 +1,1 @@
+query4(Hotel, Name, PC, Lieu) :- hasname(Hotel, Name), haspostalcode(Hotel, PC), haspostalcodeo(Lieu, PC)

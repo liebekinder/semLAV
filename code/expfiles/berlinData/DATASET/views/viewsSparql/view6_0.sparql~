@@ -1,0 +1,8 @@
+PREFIX onto: <http://example.org/activite/>
+
+SELECT *
+WHERE
+{
+    ?Lieu onto:hasMail ?Mail.
+    ?Lieu onto:hasWebSite ?Ws.
+}

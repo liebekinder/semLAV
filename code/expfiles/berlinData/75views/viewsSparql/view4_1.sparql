@@ -1,0 +1,7 @@
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+SELECT *
+WHERE {
+    ?Product_4_1 bsbm:productFeature ?F_4_1 .
+    ?F_4_1 rdfs:label ?ProductFeature_4_1 .
+}

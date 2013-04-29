@@ -1,0 +1,10 @@
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc:<http://purl.org/dc/elements/1.1/>
+PREFIX rev:<http://purl.org/stuff/rev#>
+SELECT *
+WHERE {
+    ?Review_9_4 bsbm:reviewFor ?Product_9_4 .
+    ?Review_9_4 dc:title ?Title_9_4 .
+    ?Review_9_4 rev:text ?Text_9_4 .
+}
+

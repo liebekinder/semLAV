@@ -1,0 +1,169 @@
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature70> <http://www.w3.org/2000/01/rdf-schema#label> "lawnmower huskies" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature175> <http://www.w3.org/2000/01/rdf-schema#label> "cypriote" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature42> <http://www.w3.org/2000/01/rdf-schema#label> "owls raps" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature119> <http://www.w3.org/2000/01/rdf-schema#label> "oink discontinuations" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature200> <http://www.w3.org/2000/01/rdf-schema#label> "sniveling" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature122> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature25> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature30> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature18> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature9> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature29> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product9> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature5> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature27> <http://www.w3.org/2000/01/rdf-schema#label> "dogsbodies pouffs sadisms" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature213> <http://www.w3.org/2000/01/rdf-schema#label> "recalcitrancy" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature96> <http://www.w3.org/2000/01/rdf-schema#label> "cluttered" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature68> <http://www.w3.org/2000/01/rdf-schema#label> "testers" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature5> <http://www.w3.org/2000/01/rdf-schema#label> "repossession energize" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product3> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature27> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product3> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature10> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product3> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature175> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product3> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature169> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature91> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product16> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature88> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature90> <http://www.w3.org/2000/01/rdf-schema#label> "resifted" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature34> <http://www.w3.org/2000/01/rdf-schema#label> "tops" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature47> <http://www.w3.org/2000/01/rdf-schema#label> "halflives cutins" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature88> <http://www.w3.org/2000/01/rdf-schema#label> "outstares ascriptions talkable" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product10> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature26> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature218> <http://www.w3.org/2000/01/rdf-schema#label> "sticked poles" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature133> <http://www.w3.org/2000/01/rdf-schema#label> "mesonic aphrodisia" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature105> <http://www.w3.org/2000/01/rdf-schema#label> "antidepressant undisputed girthed" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature82> <http://www.w3.org/2000/01/rdf-schema#label> "gooder perpendiculars" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product8> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature38> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product8> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature42> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product8> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature65> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature187> <http://www.w3.org/2000/01/rdf-schema#label> "reduced dippable locks" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature212> <http://www.w3.org/2000/01/rdf-schema#label> "filterability inwardly mangey" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature26> <http://www.w3.org/2000/01/rdf-schema#label> "kirigami" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature4> <http://www.w3.org/2000/01/rdf-schema#label> "linguini" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product2> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature72> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product2> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature61> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product2> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature200> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product2> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature187> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product15> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature160> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product15> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature142> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product15> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature36> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature61> <http://www.w3.org/2000/01/rdf-schema#label> "burs skullduggeries" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature46> <http://www.w3.org/2000/01/rdf-schema#label> "minty ocellus" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature18> <http://www.w3.org/2000/01/rdf-schema#label> "rectangles valorizes" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature59> <http://www.w3.org/2000/01/rdf-schema#label> "designs undersigned" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature160> <http://www.w3.org/2000/01/rdf-schema#label> "espanoles" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature286> <http://www.w3.org/2000/01/rdf-schema#label> "grabbier" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature104> <http://www.w3.org/2000/01/rdf-schema#label> "amazing factotum decompensates" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature9> <http://www.w3.org/2000/01/rdf-schema#label> "engulfing" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature40> <http://www.w3.org/2000/01/rdf-schema#label> "veinule endured" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature12> <http://www.w3.org/2000/01/rdf-schema#label> "reglued renovators onefold" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature186> <http://www.w3.org/2000/01/rdf-schema#label> "inferentially" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product7> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature197> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product7> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature70> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product7> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature211> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product7> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature47> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature25> <http://www.w3.org/2000/01/rdf-schema#label> "overambitiously asphyxiates bounds" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature211> <http://www.w3.org/2000/01/rdf-schema#label> "antiphony cutie tincturing" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature66> <http://www.w3.org/2000/01/rdf-schema#label> "enquirer" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature38> <http://www.w3.org/2000/01/rdf-schema#label> "heedfully farmhouses shutterbug" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature3> <http://www.w3.org/2000/01/rdf-schema#label> "zeals sheeny playacted" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature79> <http://www.w3.org/2000/01/rdf-schema#label> "smiters" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature111> <http://www.w3.org/2000/01/rdf-schema#label> "picadors senselessly bitterly" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature35> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature171> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature156> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature144> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature16> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product1> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature34> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature180> <http://www.w3.org/2000/01/rdf-schema#label> "penknives reabandoned vitalities" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature215> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature48> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature212> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature186> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product14> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature218> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature137> <http://www.w3.org/2000/01/rdf-schema#label> "agates cleansers accelerative" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature32> <http://www.w3.org/2000/01/rdf-schema#label> "fumaroles" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature17> <http://www.w3.org/2000/01/rdf-schema#label> "arrhythmical" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature203> <http://www.w3.org/2000/01/rdf-schema#label> "repayments risings corncobs" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature272> <http://www.w3.org/2000/01/rdf-schema#label> "sadly" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature103> <http://www.w3.org/2000/01/rdf-schema#label> "sharpies" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature144> <http://www.w3.org/2000/01/rdf-schema#label> "antepast" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product6> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature40> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product6> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature213> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product6> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature59> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature24> <http://www.w3.org/2000/01/rdf-schema#label> "dichotomously abhorrences" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature82> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature17> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature84> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature79> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature135> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product19> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature4> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature251> <http://www.w3.org/2000/01/rdf-schema#label> "nudged" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature65> <http://www.w3.org/2000/01/rdf-schema#label> "uncharacteristic" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature111> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature137> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature103> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature12> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature105> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product13> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature102> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature177> <http://www.w3.org/2000/01/rdf-schema#label> "kneading" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature72> <http://www.w3.org/2000/01/rdf-schema#label> "phylacteries opened" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature16> <http://www.w3.org/2000/01/rdf-schema#label> "feeblemindedness" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature215> <http://www.w3.org/2000/01/rdf-schema#label> "metallurgically bootie outrides" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature29> <http://www.w3.org/2000/01/rdf-schema#label> "surfaces" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature284> <http://www.w3.org/2000/01/rdf-schema#label> "ostlers contravenes transferrer" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature130> <http://www.w3.org/2000/01/rdf-schema#label> "perambulate yukking" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product20> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature104> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product20> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature15> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product20> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature3> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature102> <http://www.w3.org/2000/01/rdf-schema#label> "refulgence" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature171> <http://www.w3.org/2000/01/rdf-schema#label> "coppering uraniums transplanted" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature10> <http://www.w3.org/2000/01/rdf-schema#label> "daftly volute" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product5> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature177> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product5> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature32> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product5> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature180> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature156> <http://www.w3.org/2000/01/rdf-schema#label> "nonparliamentary" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature77> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature22> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature24> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature114> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature28> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product18> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature127> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature23> <http://www.w3.org/2000/01/rdf-schema#label> "daphnias" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature197> <http://www.w3.org/2000/01/rdf-schema#label> "intenser" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature169> <http://www.w3.org/2000/01/rdf-schema#label> "scrabbler stimulatingly forkedly" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature36> <http://www.w3.org/2000/01/rdf-schema#label> "valerian" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature77> <http://www.w3.org/2000/01/rdf-schema#label> "dismounting soffits" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature122> <http://www.w3.org/2000/01/rdf-schema#label> "vedanta nubbins bloodsucking" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product12> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature107> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product12> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature130> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product12> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature101> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product12> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature23> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature30> <http://www.w3.org/2000/01/rdf-schema#label> "ambled wifehoods provisionally" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature135> <http://www.w3.org/2000/01/rdf-schema#label> "frequency toggles containments" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature107> <http://www.w3.org/2000/01/rdf-schema#label> "tetherball" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature71> <http://www.w3.org/2000/01/rdf-schema#label> "pacemakers rainwater" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature43> <http://www.w3.org/2000/01/rdf-schema#label> "bruted harshened imploringly" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature15> <http://www.w3.org/2000/01/rdf-schema#label> "melanized pants soilages" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature84> <http://www.w3.org/2000/01/rdf-schema#label> "unaccessible" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature28> <http://www.w3.org/2000/01/rdf-schema#label> "obduction" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature101> <http://www.w3.org/2000/01/rdf-schema#label> "quinces probed meaningfulness" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature142> <http://www.w3.org/2000/01/rdf-schema#label> "warbles missal ophthalmoscopes" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature114> <http://www.w3.org/2000/01/rdf-schema#label> "innocenter paperboys" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product4> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature71> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product4> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature203> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature22> <http://www.w3.org/2000/01/rdf-schema#label> "courtrooms skyjacked" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature127> <http://www.w3.org/2000/01/rdf-schema#label> "sizzlers alveolate kaftans" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature43> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature251> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature286> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature272> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature68> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature284> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature46> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product17> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature66> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature91> <http://www.w3.org/2000/01/rdf-schema#label> "boulimia ousels" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature35> <http://www.w3.org/2000/01/rdf-schema#label> "memorability" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature48> <http://www.w3.org/2000/01/rdf-schema#label> "forebodies polypod" .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature96> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature104> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature119> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature133> .
+<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/dataFromProducer1/Product11> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/productFeature> <http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/instances/ProductFeature90> .

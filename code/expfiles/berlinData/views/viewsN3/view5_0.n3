@@ -1,0 +1,63 @@
+<http://example.org/activityLocation10> <http://example.org/hasAddress> "Rue du Ch\u00E2teau".
+<http://example.org/activityLocation10> <http://example.org/hasPostalCode> "44190".
+<http://example.org/activityLocation10> <http://example.org/hasTown> "CLISSON".
+<http://example.org/activityLocation11> <http://example.org/hasAddress> "23 Les Croix".
+<http://example.org/activityLocation11> <http://example.org/hasPostalCode> "44690".
+<http://example.org/activityLocation11> <http://example.org/hasTown> "MAISDON-SUR-SEVRE".
+<http://example.org/activityLocation5> <http://example.org/hasAddress> "Boulevard de la Tara".
+<http://example.org/activityLocation5> <http://example.org/hasPostalCode> "44770".
+<http://example.org/activityLocation5> <http://example.org/hasTown> "LA PLAINE-SUR-MER".
+<http://example.org/activityLocation8> <http://example.org/hasAddress> "Avenue Cassard".
+<http://example.org/activityLocation8> <http://example.org/hasPostalCode> "44420".
+<http://example.org/activityLocation8> <http://example.org/hasTown> "LA TURBALLE".
+<http://example.org/activityLocation18> <http://example.org/hasAddress> "Mairie".
+<http://example.org/activityLocation18> <http://example.org/hasPostalCode> "44410".
+<http://example.org/activityLocation18> <http://example.org/hasTown> "HERBIGNAC".
+<http://example.org/activityLocation12> <http://example.org/hasAddress> "Association CAP VERT".
+<http://example.org/activityLocation12> <http://example.org/hasPostalCode> "44200".
+<http://example.org/activityLocation12> <http://example.org/hasTown> "NANTES".
+<http://example.org/activityLocation9> <http://example.org/hasAddress> "All\u00E9e Fran\u00E7ois Renaud".
+<http://example.org/activityLocation9> <http://example.org/hasPostalCode> "44210".
+<http://example.org/activityLocation9> <http://example.org/hasTown> "PORNIC".
+<http://example.org/activityLocation13> <http://example.org/hasAddress> "Pend Hu\u00E9".
+<http://example.org/activityLocation13> <http://example.org/hasPostalCode> "44350".
+<http://example.org/activityLocation13> <http://example.org/hasTown> "SAINT-MOLF".
+<http://example.org/activityLocation4> <http://example.org/hasAddress> "Route de Gohaud".
+<http://example.org/activityLocation4> <http://example.org/hasPostalCode> "44730".
+<http://example.org/activityLocation4> <http://example.org/hasTown> "SAINT-MICHEL-CHEF-CHEF".
+<http://example.org/activityLocation7> <http://example.org/hasAddress> "Rue du Commandant Charcot".
+<http://example.org/activityLocation7> <http://example.org/hasPostalCode> "44600".
+<http://example.org/activityLocation7> <http://example.org/hasTown> "SAINT-NAZAIRE".
+<http://example.org/activityLocation14> <http://example.org/hasAddress> "La Harrois".
+<http://example.org/activityLocation14> <http://example.org/hasPostalCode> "44160".
+<http://example.org/activityLocation14> <http://example.org/hasTown> "BESNE".
+<http://example.org/activityLocation19> <http://example.org/hasAddress> "1 rue de Nantes".
+<http://example.org/activityLocation19> <http://example.org/hasPostalCode> "44590".
+<http://example.org/activityLocation19> <http://example.org/hasTown> "DERVAL".
+<http://example.org/activityLocation21> <http://example.org/hasAddress> "La Sabli\u00E8re".
+<http://example.org/activityLocation21> <http://example.org/hasPostalCode> "44110".
+<http://example.org/activityLocation21> <http://example.org/hasTown> "CHATEAUBRIANT".
+<http://example.org/activityLocation2> <http://example.org/hasAddress> "Rue de la Mer".
+<http://example.org/activityLocation2> <http://example.org/hasPostalCode> "44760".
+<http://example.org/activityLocation2> <http://example.org/hasTown> "LA BERNERIE-EN-RETZ".
+<http://example.org/activityLocation3> <http://example.org/hasAddress> "Rue de la Mer".
+<http://example.org/activityLocation3> <http://example.org/hasPostalCode> "44760".
+<http://example.org/activityLocation3> <http://example.org/hasTown> "LA BERNERIE-EN-RETZ".
+<http://example.org/activityLocation17> <http://example.org/hasAddress> "La Petite Fournerie".
+<http://example.org/activityLocation17> <http://example.org/hasPostalCode> "44850".
+<http://example.org/activityLocation17> <http://example.org/hasTown> "MOUZEIL".
+<http://example.org/activityLocation6> <http://example.org/hasAddress> "Rue Ferdinand Buisson".
+<http://example.org/activityLocation6> <http://example.org/hasPostalCode> "44600".
+<http://example.org/activityLocation6> <http://example.org/hasTown> "SAINT-NAZAIRE".
+<http://example.org/activityLocation16> <http://example.org/hasAddress> "Ques Couic".
+<http://example.org/activityLocation16> <http://example.org/hasPostalCode> "44410".
+<http://example.org/activityLocation16> <http://example.org/hasTown> "ASSERAC".
+<http://example.org/activityLocation20> <http://example.org/hasAddress> "\"Parc de loisirs \"\"La Boulogne\"\"\"".
+<http://example.org/activityLocation20> <http://example.org/hasPostalCode> "44310".
+<http://example.org/activityLocation20> <http://example.org/hasTown> "SAINT-PHILBERT-DE-GRAND-LIEU".
+<http://example.org/activityLocation15> <http://example.org/hasAddress> "Route de l'Estran".
+<http://example.org/activityLocation15> <http://example.org/hasPostalCode> "44410".
+<http://example.org/activityLocation15> <http://example.org/hasTown> "ASSERAC".
+<http://example.org/activityLocation1> <http://example.org/hasAddress> "Boulevard des Oc\u00E9anides".
+<http://example.org/activityLocation1> <http://example.org/hasPostalCode> "44380".
+<http://example.org/activityLocation1> <http://example.org/hasTown> "PORNICHET".

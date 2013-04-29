@@ -1,0 +1,346 @@
+options {
+  STATIC = false;
+}
+
+PARSER_BEGIN(QueryParser)
+package experimentseswc;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.ArrayList;
+public class QueryParser {
+
+}
+
+PARSER_END(QueryParser)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+}
+
+TOKEN :
+{
+  < UNION: ("U"|"u")("N"|"n")("I"|"i")("O"|"o")("N"|"n") >
+|
+  < FILTER: ("F"|"f")("I"|"i")("L"|"l")("T"|"t")("E"|"e")("R"|"r") >
+|
+  < OPTIONAL: ("O"|"o")("P"|"p")("T"|"t")("I"|"i")("O"|"o")("N"|"n")("A"|"a")("L"|"l") >
+|
+  < SELECT: ("S"|"s")("E"|"e")("L"|"l")("E"|"e")("C"|"c")("T"|"t") >
+|
+  < DISTINCT: ("D"|"d")("I"|"i")("S"|"s")("T"|"t")("I"|"i")("N"|"n")("C"|"c")("T"|"t") >
+|
+  < WHERE: ("W"|"w")("H"|"h")("E"|"e")("R"|"r")("E"|"e") >
+|
+  < PREFIX: ("P"|"p")("R"|"r")("E"|"e")("F"|"f")("I"|"i")("X"|"x") >
+|
+  < CONSTANT: ("\""|"\'")(~["\"","\'","\n","\r"])*("\""|"\'") >
+|
+  < VARIABLE: ("?"|"$")(["A"-"Z"]|["a"-"z"])(~[" ","\n","\r", "."])* >
+|
+  < LKEY: "{" >
+|
+  < LPAR: "(" >
+|
+  < RPAR: ")" >
+|
+  < COLON: ":" >
+|
+  < RKEY: (".")?([" ", "\t", "\n", "r"])*"}" >
+|
+  < POINT: "." >
+|
+/*  < EQUALS: "=" >
+|
+  < NEQUALS: "!=" >
+|
+  < LESS: "<" >
+|
+  < LESSEQ: "<=" >
+|
+  < GREATER: ">" >
+|
+  < GREATEREQ: ">=" > */
+  < OPERATOR: "="|"!="|"<"|"<="|">"|">=" >
+|
+  < URI: "<"(~[" ", "\t", "\n", "\r"])+">" >
+|
+  < ALL: "*" >
+|
+  < A: "a" >
+|
+  < ID: ["a"-"z","A"-"Z", "_"](["a"-"z","A"-"Z","_","0"-"9","-"])* >
+}
+
+Query ParseSparql():
+{ ArrayList<String> vs;
+  ArrayList<BasicGraphPattern> ts;
+  HashMap<String, String> ps;
+  boolean d; }
+{ 
+    ps=PrefixList() d=Select() vs=Variables() ts=Block() 
+        { return new Query(vs, ts, ps, d); }
+}
+
+ArrayList<String> Variables():
+{  ArrayList<String> vs; }
+{
+    vs=VariablesList()
+    { return vs; }
+|   <ALL>
+    { return new ArrayList<String>(); }
+}
+
+ArrayList<String> VariablesList():
+{ ArrayList<String> vlo; 
+  Token v; }
+{
+    v=<VARIABLE> vlo=VariablesListOpt()
+    { vlo.add(0, v.image);
+      return vlo; }
+}
+
+ArrayList<String> VariablesListOpt():
+{ ArrayList<String> vl;  }
+{
+    vl=VariablesList()
+    { return vl; }
+|   
+    { return new ArrayList<String>(); }
+}
+
+ArrayList<BasicGraphPattern> Block():
+{ ArrayList<BasicGraphPattern> ts; }
+{
+    <WHERE> <LKEY> ts=JoinBlock() <RKEY>
+    { return ts;
+    }
+}
+
+ArrayList<BasicGraphPattern> JoinBlock():
+{ ArrayList<BasicGraphPattern> jb; 
+  BasicGraphPattern bgp; }
+{
+    bgp=BGP() jb=RestJoinBlock()
+    { jb.add(0, bgp);
+      return jb;
+    }
+}
+
+ArrayList<BasicGraphPattern> RestJoinBlock():
+{ ArrayList<BasicGraphPattern> jb; 
+  BasicGraphPattern bgp; }
+{
+    <POINT> bgp=BGP() jb=RestJoinBlock()
+    { 
+      jb.add(0, bgp);
+      return jb;
+    }
+|
+    { return new ArrayList<BasicGraphPattern>(); }
+}
+
+BasicGraphPattern BGP():
+{ Triple t; 
+  Filter f; 
+  Expression e; }
+{
+    t=Triple()
+    { return t; }
+|   <FILTER> <LPAR> e=Expression() <RPAR>
+    { return new Filter(e); }
+}
+
+/*
+Expression Expression():
+{ Token op, c, v;
+  Expression e0, e1; }
+{
+    e0=Expression() op=<OPERATOR> e1=Expression()
+    { return new BinaryExpression(op.image, e0, e1); }
+|
+    c=<CONSTANT>
+    { return new UnaryExpression(c.image); }
+|
+    v=<VARIABLE>
+    { return new UnaryExpression(v.image); }
+|
+    expression LESS expression
+|
+    expression LESSEQ expression
+|
+    expression GREATER expression
+|
+    expression GREATEREQ expression
+|
+    expression NEQUALS expression 
+} */
+
+Expression Expression():
+{ String bop;
+  Expression r; }
+{
+    bop=BasicOperator() r=Rest()
+    { 
+        if (r==null) {
+            return new UnaryExpression(bop);
+        } else {
+            ((BinaryExpression) r).left = new UnaryExpression(bop);
+            return r;
+        }
+    }
+}
+
+BinaryExpression Rest():
+{ Token op;
+  Expression e; }
+{
+    op=<OPERATOR> e=Expression()
+    { return new BinaryExpression(op.image, null, e); }
+|
+    { return null; }
+}
+
+String BasicOperator():
+{ Token c, v;
+  String s;
+  String[] u; }
+{
+    c=<CONSTANT>
+    { return c.image; }
+|   v=<VARIABLE>
+    { return v.image; }
+|   u=Uri()
+    { 
+      s = u[0];
+      if (u.length > 1) {
+          s = s + ":" + u[1];
+      }
+      return s; 
+    }
+}
+
+Triple Triple():
+{ String s;
+  String p;
+  String o; }
+{
+    s=Subject() p=Predicate() o=Object()
+    { return new Triple(s, p, o); }
+}
+
+String Predicate():
+{ String[] u;
+  String p;
+  Token v, a; }
+{
+    u=Uri()
+    { 
+      p = u[0];
+      if (u.length > 1) {
+          p = p + ":" + u[1];
+      }
+      return p; 
+    }
+|   v=<VARIABLE>
+    { return v.image; }
+|   a=<A>
+    { return a.image; }
+
+}
+
+String Subject():
+{ String[] u;
+  String s;
+  Token v; }
+{
+    u=Uri()
+    { 
+      s = u[0];
+      if (u.length > 1) {
+          s = s + ":" + u[1];
+      }
+      return s; 
+    }
+|   v=<VARIABLE>
+    { return v.image; }
+}
+
+String Object():
+{ String[] u;
+  String o;
+  Token v, c; }
+{
+    u=Uri()
+    { 
+      o = u[0];
+      if (u.length > 1) {
+          o = o + ":" + u[1];
+      }
+      return o; 
+    }
+|   v=<VARIABLE>
+    { return v.image; }
+|   c=<CONSTANT>
+    { return c.image; }
+}
+
+HashMap<String, String> PrefixList():
+{ String[] p; 
+  HashMap<String, String> pl; }
+{
+    p=Prefix() pl=PrefixList()
+    { pl.put(p[0], p[1]);
+      return pl; }
+|   
+    { return new HashMap<String, String>(); }
+}
+
+String[] Prefix():
+{ String[] u; }
+{
+    <PREFIX> u=Uri()
+    { return u; }
+}
+
+String[] Uri():
+{ String[] ps; 
+  String ur;
+  Token n;
+}
+{
+    n=<ID> <COLON> ur=UriRest()
+    { ps = new String[2];
+      ps[0]=n.image; 
+      ps[1]=ur; 
+      return ps; }
+|   n=<URI>
+    { ps = new String[1]; 
+      ps[0] = n.image; 
+      return ps; }
+}
+
+String UriRest():
+{ Token v; }
+{ 
+    v=<ID>
+    { return v.image; } 
+|   v=<URI>
+    { return v.image; }
+}
+
+boolean Select():
+{ boolean d;}
+{   <SELECT> d=Distinct() 
+    { return d; }
+}
+
+boolean Distinct():
+{}
+{   <DISTINCT>
+    { return true;}
+|
+    { return false; }
+}

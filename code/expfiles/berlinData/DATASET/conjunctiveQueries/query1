@@ -1,0 +1,1 @@
+query1(Hotel, Name, PC, Address, Mail, WebSite) :- hasname(Hotel, Name), haspostalcode(Hotel, PC), hasaddress(Hotel, Address), hasmail(Hotel, Mail), haswebsite(Hotel, WebSite)

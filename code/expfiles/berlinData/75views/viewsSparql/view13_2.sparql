@@ -1,0 +1,12 @@
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+SELECT *
+WHERE {
+    ?Product_13_2 rdfs:label ?ProductLabel_13_2 .
+    ?Offer_13_2 bsbm:product ?Product_13_2 .
+    ?Offer_13_2 bsbm:price ?Price_13_2 .
+    ?Offer_13_2 bsbm:vendor ?Vendor_13_2 .
+    ?Offer_13_2 bsbm:offerWebpage ?OfferURL_13_2 .
+    ?Vendor_13_2 foaf:homepage ?Vendorhomepage_13_2 .
+}

@@ -1,0 +1,1 @@
+query3(lieu, name, Adress, PostalCode, Town) :- hasname(lieu, name), hasaddress(lieu, Adress), haspostalcode(lieu, PostalCode), hastown(lieu, Town)

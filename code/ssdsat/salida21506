@@ -1,0 +1,1141 @@
+[Generate MCD theory]
+adding clauses of type C12
+["-('v', 1)", "-('z', 2, 1, 1)", "('t', X, X)"]
+["-('v', 1)", "-('z', 2, 1, 1)", "('t', paris, Y)"]
+["-('v', 1)", "-('z', 2, 1, 1)", "('t', T, T)"]
+["-('v', 1)", "-('z', 1, 2, 1)", "('t', X, X)"]
+["-('v', 1)", "-('z', 1, 3, 1)", "('t', X, Y)"]
+["-('v', 2)", "-('z', 2, 1, 2)", "('t', X, X)"]
+["-('v', 2)", "-('z', 2, 1, 2)", "('t', paris, Y)"]
+["-('v', 2)", "-('z', 2, 1, 2)", "('t', T, aa)"]
+["-('v', 3)", "-('z', 2, 1, 3)", "('t', X, X)"]
+["-('v', 3)", "-('z', 2, 1, 3)", "('t', paris, Y)"]
+["-('v', 3)", "-('z', 2, 1, 3)", "('t', T, ua)"]
+["-('v', 4)", "-('z', 2, 1, 4)", "('t', X, X)"]
+["-('v', 4)", "-('z', 2, 1, 4)", "('t', paris, Y)"]
+["-('v', 4)", "-('z', 2, 1, 4)", "('t', T, T)"]
+["-('v', 5)", "-('z', 2, 1, 5)", "('t', X, X)"]
+["-('v', 5)", "-('z', 2, 1, 5)", "('t', paris, Z)"]
+["-('v', 5)", "-('z', 2, 1, 5)", "('t', T, T)"]
+["-('v', 5)", "-('z', 2, 2, 5)", "('t', X, Z)"]
+["-('v', 5)", "-('z', 2, 2, 5)", "('t', paris, Y)"]
+["-('v', 5)", "-('z', 2, 2, 5)", "('t', T, T)"]
+["-('v', 6)", "-('z', 2, 1, 6)", "('t', X, X)"]
+["-('v', 6)", "-('z', 2, 1, 6)", "('t', paris, paris)"]
+["-('v', 6)", "-('z', 2, 1, 6)", "('t', T, aa)"]
+["-('v', 7)", "-('z', 2, 1, 7)", "('t', X, paris)"]
+["-('v', 7)", "-('z', 2, 1, 7)", "('t', paris, X)"]
+["-('v', 7)", "-('z', 2, 1, 7)", "('t', T, ua)"]
+["-('v', 8)", "-('z', 2, 1, 8)", "('t', X, la)"]
+["-('v', 8)", "-('z', 2, 1, 8)", "('t', paris, X)"]
+["-('v', 8)", "-('z', 2, 1, 8)", "('t', T, ua)"]
+adding clauses of type C1
+["('v', 0)", "('v', 1)", "('v', 2)", "('v', 3)", "('v', 4)", "('v', 5)", "('v', 6)", "('v', 7)", "('v', 8)"]
+adding clauses of type C2
+["-('v', 0)", "-('v', 1)"]
+["-('v', 0)", "-('v', 2)"]
+["-('v', 0)", "-('v', 3)"]
+["-('v', 0)", "-('v', 4)"]
+["-('v', 0)", "-('v', 5)"]
+["-('v', 0)", "-('v', 6)"]
+["-('v', 0)", "-('v', 7)"]
+["-('v', 0)", "-('v', 8)"]
+["-('v', 1)", "-('v', 2)"]
+["-('v', 1)", "-('v', 3)"]
+["-('v', 1)", "-('v', 4)"]
+["-('v', 1)", "-('v', 5)"]
+["-('v', 1)", "-('v', 6)"]
+["-('v', 1)", "-('v', 7)"]
+["-('v', 1)", "-('v', 8)"]
+["-('v', 2)", "-('v', 3)"]
+["-('v', 2)", "-('v', 4)"]
+["-('v', 2)", "-('v', 5)"]
+["-('v', 2)", "-('v', 6)"]
+["-('v', 2)", "-('v', 7)"]
+["-('v', 2)", "-('v', 8)"]
+["-('v', 3)", "-('v', 4)"]
+["-('v', 3)", "-('v', 5)"]
+["-('v', 3)", "-('v', 6)"]
+["-('v', 3)", "-('v', 7)"]
+["-('v', 3)", "-('v', 8)"]
+["-('v', 4)", "-('v', 5)"]
+["-('v', 4)", "-('v', 6)"]
+["-('v', 4)", "-('v', 7)"]
+["-('v', 4)", "-('v', 8)"]
+["-('v', 5)", "-('v', 6)"]
+["-('v', 5)", "-('v', 7)"]
+["-('v', 5)", "-('v', 8)"]
+["-('v', 6)", "-('v', 7)"]
+["-('v', 6)", "-('v', 8)"]
+["-('v', 7)", "-('v', 8)"]
+adding clauses of type C3
+["-('v', 0)", "-('g', 1)"]
+["-('v', 0)", "-('g', 2)"]
+adding clauses of type C4
+["-('v', 1)", "('g', 1)", "('g', 2)"]
+["-('v', 2)", "('g', 1)", "('g', 2)"]
+["-('v', 3)", "('g', 1)", "('g', 2)"]
+["-('v', 4)", "('g', 1)", "('g', 2)"]
+["-('v', 5)", "('g', 1)", "('g', 2)"]
+["-('v', 6)", "('g', 1)", "('g', 2)"]
+["-('v', 7)", "('g', 1)", "('g', 2)"]
+["-('v', 8)", "('g', 1)", "('g', 2)"]
+adding clauses of type C6
+["-('v', 2)", "-('g', 1)"]
+["-('v', 3)", "-('g', 1)"]
+["-('v', 4)", "-('g', 1)"]
+["-('v', 5)", "-('g', 1)"]
+["-('v', 6)", "-('g', 1)"]
+["-('v', 7)", "-('g', 1)"]
+["-('v', 8)", "-('g', 1)"]
+["-('v', 5)", "-('g', 2)"]
+adding clauses of type C9
+["-('v', 5)", "-('t', T, Z)", "-('t', T, T)"]
+adding clauses of type E1
+["-('v', 1)", "-('t', X, X)", "('z', 2, 1, 1)", "('z', 1, 2, 1)"]
+["-('v', 3)", "-('t', X, X)", "('z', 2, 1, 3)"]
+["-('v', 6)", "-('t', T, aa)", "('z', 2, 1, 6)"]
+["-('v', 5)", "-('t', X, X)", "('z', 2, 1, 5)"]
+["-('v', 4)", "-('t', T, T)", "('z', 2, 1, 4)"]
+["-('v', 6)", "-('t', paris, paris)", "('z', 2, 1, 6)"]
+["-('v', 1)", "-('t', paris, Y)", "('z', 2, 1, 1)"]
+["-('v', 8)", "-('t', X, la)", "('z', 2, 1, 8)"]
+["-('v', 5)", "-('t', paris, Y)", "('z', 2, 2, 5)"]
+["-('v', 8)", "-('t', T, ua)", "('z', 2, 1, 8)"]
+["-('v', 2)", "-('t', T, aa)", "('z', 2, 1, 2)"]
+["-('v', 3)", "-('t', T, ua)", "('z', 2, 1, 3)"]
+["-('v', 7)", "-('t', X, paris)", "('z', 2, 1, 7)"]
+["-('v', 5)", "-('t', T, T)", "('z', 2, 1, 5)", "('z', 2, 2, 5)"]
+["-('v', 5)", "-('t', paris, Z)", "('z', 2, 1, 5)"]
+["-('v', 7)", "-('t', paris, X)", "('z', 2, 1, 7)"]
+["-('v', 4)", "-('t', X, X)", "('z', 2, 1, 4)"]
+["-('v', 2)", "-('t', X, X)", "('z', 2, 1, 2)"]
+["-('v', 7)", "-('t', T, ua)", "('z', 2, 1, 7)"]
+["-('v', 1)", "-('t', T, T)", "('z', 2, 1, 1)"]
+["-('v', 4)", "-('t', paris, Y)", "('z', 2, 1, 4)"]
+["-('v', 2)", "-('t', paris, Y)", "('z', 2, 1, 2)"]
+["-('v', 8)", "-('t', paris, X)", "('z', 2, 1, 8)"]
+["-('v', 5)", "-('t', X, Z)", "('z', 2, 2, 5)"]
+["-('v', 3)", "-('t', paris, Y)", "('z', 2, 1, 3)"]
+["-('v', 6)", "-('t', X, X)", "('z', 2, 1, 6)"]
+["-('v', 1)", "-('t', X, Y)", "('z', 1, 3, 1)"]
+VER
+[('t', paris, Z), ('t', X, la), ('t', paris, paris), ('t', paris, Y), ('t', T, Z), ('t', X, paris), ('t', X, X), ('t', Y, Z), ('t', V, Z), ('t', X, Y), ('t', X, Z), ('t', T, aa), ('t', paris, X), ('t', T, T), ('t', T, ua)]
+adding clauses of type D4
+considering v: 1
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering v: 2
+considering A: paris
+considering x: X
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: Y
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: V
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: T
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering v: 3
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering v: 4
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering v: 5
+considering A: paris
+considering x: X
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering v: 6
+considering A: paris
+considering x: X
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: Y
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: V
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: T
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering v: 7
+considering A: paris
+considering x: X
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: Y
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: V
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: T
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering v: 8
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: Y
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: V
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: T
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering v: 1
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering v: 2
+considering A: paris
+considering x: X
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: Y
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: V
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering x: T
+considering y: aa
+considering z: aa
+considering z: X
+considering z: Y
+considering y: X
+considering z: aa
+considering z: X
+considering z: Y
+considering y: Y
+considering z: aa
+considering z: X
+considering z: Y
+considering v: 3
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: ua
+considering y: Y
+considering z: X
+considering z: Y
+considering z: ua
+considering y: ua
+considering z: X
+considering z: Y
+considering z: ua
+considering v: 4
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: X
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: X
+considering z: Y
+considering z: T
+considering v: 5
+considering A: paris
+considering x: X
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: Y
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: V
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering x: T
+considering y: Z
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: X
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: Y
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering y: T
+considering z: Z
+considering z: X
+considering z: Y
+considering z: T
+considering v: 6
+considering A: paris
+considering x: X
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: Y
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: V
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering x: T
+considering y: paris
+considering z: paris
+considering z: aa
+considering z: X
+considering y: aa
+considering z: paris
+considering z: aa
+considering z: X
+considering y: X
+considering z: paris
+considering z: aa
+considering z: X
+considering v: 7
+considering A: paris
+considering x: X
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: Y
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: V
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering x: T
+considering y: paris
+considering z: paris
+considering z: X
+considering z: ua
+considering y: X
+considering z: paris
+considering z: X
+considering z: ua
+considering y: ua
+considering z: paris
+considering z: X
+considering z: ua
+considering v: 8
+considering A: paris
+considering x: X
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: Y
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: V
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+considering x: T
+considering y: X
+considering z: X
+considering z: ua
+considering z: la
+considering y: ua
+considering z: X
+considering z: ua
+considering z: la
+considering y: la
+considering z: X
+considering z: ua
+considering z: la
+["-('t', paris, Z)", "-('t', T, Z)", "-('t', T, T)", "('t', paris, T)"]
+["-('t', paris, T)", "-('t', T, T)", "-('t', T, Z)", "('t', paris, Z)"]
+VER
+[('t', paris, Z), ('t', X, la), ('t', paris, paris), ('t', paris, Y), ('t', paris, la), ('t', T, Z), ('t', X, paris), ('t', X, X), ('t', Y, Z), ('t', V, Z), ('t', X, Y), ('t', X, Z), ('t', T, aa), ('t', paris, X), ('t', T, T), ('t', T, ua), ('t', paris, T)]
+adding clauses of type D5
+VER
+[('t', paris, Z), ('t', X, la), ('t', paris, paris), ('t', paris, Y), ('t', paris, la), ('t', T, Z), ('t', X, paris), ('t', X, X), ('t', Y, Z), ('t', V, Z), ('t', X, Y), ('t', X, Z), ('t', T, aa), ('t', paris, X), ('t', T, T), ('t', T, ua), ('t', paris, T)]
+adding clauses of type D1
+["-('t', X, la)", "-('t', X, paris)"]
+["-('t', paris, paris)", "-('t', paris, la)"]
+["-('t', T, aa)", "-('t', T, ua)"]
+adding clauses of type D2
+adding clauses of type D3
+["-('t', paris, la)"]
+adding clauses of type C8
+["-('t', paris, Z)", "('v', 5)"]
+["-('t', X, la)", "('v', 8)"]
+["-('t', paris, paris)", "('v', 6)"]
+["-('t', paris, Y)", "('v', 1)", "('v', 2)", "('v', 3)", "('v', 4)", "('v', 5)"]
+["-('t', paris, la)", "('v', 8)"]
+["-('t', T, Z)", "('v', 5)"]
+["-('t', X, paris)", "('v', 7)"]
+["-('t', X, X)", "('v', 1)", "('v', 2)", "('v', 3)", "('v', 4)", "('v', 5)", "('v', 6)"]
+["-('t', Y, Z)", "('v', 5)"]
+["-('t', V, Z)", "('v', 5)"]
+["-('t', X, Y)", "('v', 1)"]
+["-('t', X, Z)", "('v', 5)"]
+["-('t', T, aa)", "('v', 2)", "('v', 6)"]
+["-('t', paris, X)", "('v', 7)", "('v', 8)"]
+["-('t', T, T)", "('v', 1)", "('v', 4)", "('v', 5)"]
+["-('t', T, ua)", "('v', 3)", "('v', 7)", "('v', 8)"]
+["-('t', paris, T)", "('v', 5)"]
+adding clauses of type C10
+["-('v', 1)", "-('t', paris, T)"]
+["-('v', 4)", "-('t', paris, T)"]
+["-('v', 5)", "-('t', paris, Z)"]
+["-('v', 5)", "-('t', X, Z)"]
+["-('v', 5)", "-('t', Y, Z)"]
+["-('v', 5)", "-('t', V, Z)"]
+["-('v', 5)", "-('t', paris, T)"]
+adding clauses of type C11
+["-('v', 1)", "-('t', T, T)", "('g', 2)"]
+["-('v', 4)", "-('t', T, T)", "('g', 2)"]
+["-('v', 5)", "-('t', T, Z)", "('g', 2)"]
+["-('v', 5)", "-('t', T, T)", "('g', 2)"]
+adding clauses of type C5
+["-('z', 1, 2, 1)", "-('z', 1, 3, 1)"]
+["-('z', 2, 1, 5)", "-('z', 2, 2, 5)"]
+adding clauses of type C7
+["-('v', 1)", "-('g', 1)", "('z', 1, 2, 1)", "('z', 1, 3, 1)"]
+["-('z', 1, 2, 1)", "('v', 1)"]
+["-('z', 1, 2, 1)", "('g', 1)"]
+["-('z', 1, 3, 1)", "('v', 1)"]
+["-('z', 1, 3, 1)", "('g', 1)"]
+["-('v', 1)", "-('g', 2)", "('z', 2, 1, 1)"]
+["-('z', 2, 1, 1)", "('v', 1)"]
+["-('z', 2, 1, 1)", "('g', 2)"]
+["-('v', 2)", "-('g', 1)"]
+["-('v', 2)", "-('g', 2)", "('z', 2, 1, 2)"]
+["-('z', 2, 1, 2)", "('v', 2)"]
+["-('z', 2, 1, 2)", "('g', 2)"]
+["-('v', 3)", "-('g', 1)"]
+["-('v', 3)", "-('g', 2)", "('z', 2, 1, 3)"]
+["-('z', 2, 1, 3)", "('v', 3)"]
+["-('z', 2, 1, 3)", "('g', 2)"]
+["-('v', 4)", "-('g', 1)"]
+["-('v', 4)", "-('g', 2)", "('z', 2, 1, 4)"]
+["-('z', 2, 1, 4)", "('v', 4)"]
+["-('z', 2, 1, 4)", "('g', 2)"]
+["-('v', 5)", "-('g', 1)"]
+["-('v', 5)", "-('g', 2)", "('z', 2, 1, 5)", "('z', 2, 2, 5)"]
+["-('z', 2, 1, 5)", "('v', 5)"]
+["-('z', 2, 1, 5)", "('g', 2)"]
+["-('z', 2, 2, 5)", "('v', 5)"]
+["-('z', 2, 2, 5)", "('g', 2)"]
+["-('v', 6)", "-('g', 1)"]
+["-('v', 6)", "-('g', 2)", "('z', 2, 1, 6)"]
+["-('z', 2, 1, 6)", "('v', 6)"]
+["-('z', 2, 1, 6)", "('g', 2)"]
+["-('v', 7)", "-('g', 1)"]
+["-('v', 7)", "-('g', 2)", "('z', 2, 1, 7)"]
+["-('z', 2, 1, 7)", "('v', 7)"]
+["-('z', 2, 1, 7)", "('g', 2)"]
+["-('v', 8)", "-('g', 1)"]
+["-('v', 8)", "-('g', 2)", "('z', 2, 1, 8)"]
+["-('z', 2, 1, 8)", "('v', 8)"]
+["-('z', 2, 1, 8)", "('g', 2)"]
+[Compile to DNNF]
+[Enumerate models]

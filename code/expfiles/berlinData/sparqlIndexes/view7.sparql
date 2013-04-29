@@ -1,0 +1,14 @@
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+PREFIX dc:<http://purl.org/dc/elements/1.1/>
+PREFIX rev:<http://purl.org/stuff/rev#>
+PREFIX foaf:<http://xmlns.com/foaf/0.1/>
+SELECT *
+WHERE {
+    ?Product rdfs:label ?ProductLabel .
+    ?Review bsbm:reviewFor ?Product .
+    ?Review rev:reviewer ?Reviewer .
+    ?Reviewer foaf:name ?RevName .
+    ?Review dc:title ?RevTitle .
+}
+

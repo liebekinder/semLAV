@@ -1,0 +1,9 @@
+PREFIX onto: <http://example.org/>
+
+SELECT *
+WHERE
+{
+    ?lieu onto:hasAddress ?address .
+    ?lieu onto:hasPostalCode ?postalCode .
+    ?lieu onto:hasTown ?town .
+}

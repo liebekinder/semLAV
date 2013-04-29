@@ -1,0 +1,7 @@
+PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
+SELECT * 
+WHERE {
+    ?Offer2 bsbm:offerWebpage ?OfferURL2 .
+    ?Offer2 bsbm:price ?Price .
+    ?Offer2 bsbm:deliveryDays ?DeliveryDays .
+}

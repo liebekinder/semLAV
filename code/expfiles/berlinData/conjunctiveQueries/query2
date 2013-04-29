@@ -1,0 +1,1 @@
+query2(Hotel, Name, Adress, Website) :- hasname(Hotel, Name), hasaddress(Hotel, Adress), haswebsite(Hotel, Website)
