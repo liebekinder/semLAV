@@ -1,7 +1,0 @@
-PREFIX ex:<http://example.org/>
-SELECT * WHERE {
-    ?Hotel_1_0 ex:hasName ?Name_1_0 .
-    ?Hotel_1_0 ex:hasPostalCode ?PC_1_0 .
-    ?Hotel_1_0 ex:hasAddress ?Adress_1_0 .
-}
-

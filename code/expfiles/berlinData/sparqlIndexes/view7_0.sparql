@@ -1,8 +1,0 @@
-PREFIX onto: <http://example.org/>
-
-SELECT ?x_3_0 ?vi_3_0 ?hi_3_0
-WHERE
-{
-    ?x_3_0 onto:acceptVisualImpairment ?vi_3_0.
-    ?x_3_0 onto:acceptHearingImpairment ?hi_3_0.
-}

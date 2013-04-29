@@ -1,4 +1,0 @@
-PREFIX ex:<http://example.org/>
-SELECT * WHERE {
-    ?Hotel ex:hasWebSite ?Website .
-}

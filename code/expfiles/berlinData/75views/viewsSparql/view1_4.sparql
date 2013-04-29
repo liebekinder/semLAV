@@ -1,9 +1,0 @@
-PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
-SELECT * WHERE {
-    ?Product_1_4 rdfs:label ?Label_1_4 .
-    ?Product_1_4 rdf:type ?ProductType_1_4 .
-    ?Product_1_4 bsbm:productFeature ?ProductFeature1_1_4 .
-}
-

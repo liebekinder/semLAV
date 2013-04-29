@@ -1,8 +1,0 @@
-PREFIX onto: <http://example.org/>
-
-SELECT ?x ?mail ?ws
-WHERE
-{
-    ?x onto:hasMail ?mail.
-    ?x onto:hasWebSite ?ws.
-}

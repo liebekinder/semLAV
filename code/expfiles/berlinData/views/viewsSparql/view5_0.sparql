@@ -1,9 +1,0 @@
-PREFIX onto: <http://example.org/>
-
-SELECT *
-WHERE
-{
-    ?lieu_5_0 onto:hasAddress ?Adress_5_0 .
-    ?lieu_5_0 onto:hasPostalCode ?PostalCode_5_0 .
-    ?lieu_5_0 onto:hasTown ?Town_5_0 .
-}

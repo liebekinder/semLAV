@@ -1,8 +1,0 @@
-PREFIX bsbm:<http://www4.wiwiss.fu-berlin.de/bizer/bsbm/v01/vocabulary/>
-SELECT * 
-WHERE {
-    ?Product bsbm:producer ?P .
-    ?Offer bsbm:product ?Product .
-    ?Offer bsbm:vendor ?VendorURI .
-}
-

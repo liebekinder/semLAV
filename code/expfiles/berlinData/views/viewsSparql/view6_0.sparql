@@ -1,8 +1,0 @@
-PREFIX onto: <http://example.org/>
-
-SELECT *
-WHERE
-{
-    ?lieu_6_0 onto:hasMail ?Mail_6_0.
-    ?lieu_6_0 onto:hasWebSite ?Website_6_0.
-}

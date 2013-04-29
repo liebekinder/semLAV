@@ -1,8 +1,0 @@
-PREFIX ex:<http://example.org/>
-PREFIX onto: <http://example.org/>
-
-SELECT ?Hotel WHERE {
-    ?Hotel ex:hasName ?Name .
-    ?Hotel ex:hasPostalCode ?PC .
-    ?Activite onto:hasPostalCode ?PC .
-}
