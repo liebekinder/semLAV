@@ -15,8 +15,9 @@ textarea{
 }
 
 #imageWait{
-	display:block;
-	margin:auto;
+	position:absolute;
+	margin-left:43%;
+	margin-top:70%;
 	visibility: hidden;
 }
 
