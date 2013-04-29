@@ -7,6 +7,13 @@
 		<link type="text/css" rel="stylesheet" href="stylesheets/ui-lightness/jquery-ui-1.10.2.custom.css"/>
 		<script src="js/jquery-1.9.1.js"></script>
 		<script src="js/jquery-ui-1.10.2.custom.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			$("button")
+				.button();
+		});
+		
+		</script>
 </head>
 
 <body>
@@ -20,9 +27,9 @@
 
     <div id="principal">
     	<div id="querySelector">
+    	<?php include('scripts/bouton.php');?>
     	</div>
     	<div id="queryDisplay">
-    		<textarea class="queryField"></textarea>
     	</div>
     	<div id="queryResult">
     		<div id="calculate"></div>
