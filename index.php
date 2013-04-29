@@ -17,6 +17,7 @@
 
     <div id="principal">
     	<div id="querySelector">
+    		<?php include("scripts/bouton.php");?>
     	</div>
     	<div id="queryDisplay">
     	</div>

@@ -12,12 +12,13 @@ h1 {
 
 .sendButton {
   display: block;
-  font-size: 20pt;
+  font-size: 16pt;
   position:relative;
   width:173px;
-  left:5px;
+  margin:5px;
   background:white !important;
   text-align:center;
+  
 }
 .selectedButton {
   background: lightBlue !important;
@@ -79,6 +80,7 @@ h1 {
 	border:1px solid lightGrey;
 	background:#eee;
 	overflow-y: scroll;
+	overflow-x:hidden;
 }
 #queryDisplay{
 	position:absolute;
