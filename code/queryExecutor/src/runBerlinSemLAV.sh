@@ -1,7 +1,8 @@
 #!/bin/bash
 GUNPATH=`pwd | rev | cut -d"/" -f 4- | rev`
 SETUPS='views'
-QUERIES=`seq $2 $3`
+QUERIES=`seq $1 $1`
+
 
 cp configD.properties.base configD.properties
 sed -i".bkp" "s|GUNPATH|$GUNPATH|" configD.properties

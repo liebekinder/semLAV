@@ -1,7 +1,7 @@
 <?php
 
 function getQueryContent($queryName){
-	
+	$Fichier="";
 	if (!$fp = fopen("../code/expfiles/berlinData/DATASET/sparqlQueries/$queryName.sparql","r")) {
 		echo "Echec de l'ouverture du fichier";	
 		exit;	
@@ -23,13 +23,15 @@ function getQueryContent($queryName){
 	return $Fichier;
 }
 
-function getQueryAnswers($queryName){
+function getQueryAnswers($queryNumber){
 	//execute semlavBerlindata
 // 	echo getcwd();
 	putenv("GUNPATH = /var/www/semLAV/code/");
 	chdir("/var/www/semLAV/code/queryExecutor/src");
-// 	echo getcwd();
-	$output = shell_exec("sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh 1 1");
+	
+	$cmd = "sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber $queryNumber";
+	echo $cmd;
+	$output = shell_exec("sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber");
 // 	$output = shell_exec("ls");
 	
 	if($output == NULL ) return "le retour de shell_exec est nul";
