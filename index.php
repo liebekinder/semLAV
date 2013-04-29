@@ -22,6 +22,7 @@
     	<div id="querySelector">
     	</div>
     	<div id="queryDisplay">
+    		<textarea class="queryField"></textarea>
     	</div>
     	<div id="queryResult">
     		<div id="calculate"></div>
