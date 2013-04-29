@@ -12,7 +12,10 @@
 		$(function () {
 			$("#querySelector").buttonset();
 			$("button").button();
+			$(".lquery").attr("class", "lquery ui-button ui-widget ui-state-default ui-button-text-only");
+			$("#buttonExec").button("option", "disabled", true);
 		});
+		
 	</script>
 </head>
 <body>
