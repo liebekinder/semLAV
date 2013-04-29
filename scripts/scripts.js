@@ -42,9 +42,9 @@ function getQueryContent(val){
 	objetXHR.onreadystatechange = actualiserPage;
 	
 	//chargement du loader avant que la requete soit executee et on cache le tableau
-	//gebi("querySelector").style.visibility = "hidden";
 	disableButton(true);
 	global = val;
+//	gebi("querySelector").style.visibility = "hidden";
 	
 	//envoie de la requete
 	objetXHR.send(null);
@@ -53,13 +53,8 @@ function getQueryContent(val){
 }
 
 function disableButton(disabled){
-	gebi("buttonExec").disabled = false;
-	gebi("query1").disabled = disabled;
-	gebi("query2").disabled = disabled;
-	gebi("query3").disabled = disabled;
-	gebi("query4").disabled = disabled;
-	gebi("query5").disabled = disabled;
-	gebi("query6").disabled = disabled;
+	$("#buttonExec").button("option", "disabled", false);
+	$(".sendButton").button("option", "disabled", disabled);
 }
 
 function actualiserPage(){
@@ -73,12 +68,13 @@ function actualiserPage(){
 			gebi("queryTextArea").innerHTML = nouveauResultat;
 			
 			//on cache le loader et on debloque le bouton et on affiche le resultat
-			gebi("querySelector").style.visibility = "visible";
+
 			disableButton(false);
+
 		}
 		else{
 			gebi("querySelector").innerHTML = "erreur serveur: "+ objetXHR.status +" - "+ objetXHR.statusText;
-			//gebi("querySelector").style.visibility = "visible";
+			disableButton(false);
 			
 			//annule la requete en cours
 			objetXHR.abort();
@@ -113,6 +109,7 @@ function getQueryAnswers(){
 	//chargement du loader avant que la requete soit executee et on cache le tableau
 	gebi("result").style.visibility = "hidden";
 	gebi("imageWait").style.visibility = "visible";
+	$("#buttonExec").button("option", "disabled", true);
 	
 	//envoie de la requete
 	objetXHR2.send(null);
@@ -145,7 +142,6 @@ function actualiserPage2(){
 	}
 
 	gebi("imageWait").style.visibility = "hidden";
-	gebi("buttonExec").disabled = "true";
 }
 
 //-------------------------------------------------------------------//
