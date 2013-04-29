@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>semLAV Query Handler</title>
-	<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
+	<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>	
+	<script type="text/javascript" language="javascript" src="scripts/scripts.js"></script>
 </head>
-
 <body>
  
  <noscript>
@@ -20,7 +20,7 @@
     		<?php include("scripts/bouton.php");?>
     	</div>
     	<div id="queryDisplay">
-    		<textarea class="queryField"></textarea>
+    		<textarea id="queryTextArea" class="queryField" readonly></textarea>
     	</div>
     	<div id="queryResult">
     		<div id="calculate"></div>
