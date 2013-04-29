@@ -1,0 +1,442 @@
+<http://example.org/hotel/hotelLocation125> <http://example.org/hotel/hasName> "ETAP HOTEL - SAINTE LUCE SUR LOIRE" .
+<http://example.org/hotel/hotelLocation125> <http://example.org/hotel/hasPostalCode> "44980" .
+<http://example.org/hotel/hotelLocation125> <http://example.org/hotel/hasAddress> "4, Rue Gustave Eiffel" .
+<http://example.org/hotel/hotelLocation60> <http://example.org/hotel/hasName> "LA PEROUSE" .
+<http://example.org/hotel/hotelLocation60> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation60> <http://example.org/hotel/hasAddress> "3 All\u00E9e Duquesne" .
+<http://example.org/hotel/hotelLocation138> <http://example.org/hotel/hasName> "BEST HOTEL NANTES CENTRE" .
+<http://example.org/hotel/hotelLocation138> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation138> <http://example.org/hotel/hasAddress> "9, Rue du Mar\u00E9chal de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation32> <http://example.org/hotel/hasName> "LE CHRISTINA" .
+<http://example.org/hotel/hotelLocation32> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation32> <http://example.org/hotel/hasAddress> "26, boulevard Hennecart" .
+<http://example.org/hotel/hotelLocation73> <http://example.org/hotel/hasName> "CHOLET (LE)" .
+<http://example.org/hotel/hotelLocation73> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation73> <http://example.org/hotel/hasAddress> "10, Rue Gresset" .
+<http://example.org/hotel/hotelLocation45> <http://example.org/hotel/hasName> "B&B H\u00D4TEL NANTES LA CHAPELLE" .
+<http://example.org/hotel/hotelLocation45> <http://example.org/hotel/hasPostalCode> "44240" .
+<http://example.org/hotel/hotelLocation45> <http://example.org/hotel/hasAddress> "Parc de Gesvres" .
+<http://example.org/hotel/hotelLocation17> <http://example.org/hotel/hasName> "LA LOUEE" .
+<http://example.org/hotel/hotelLocation17> <http://example.org/hotel/hasPostalCode> "44115" .
+<http://example.org/hotel/hotelLocation86> <http://example.org/hotel/hasName> "ORLEANS (D')" .
+<http://example.org/hotel/hotelLocation86> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation86> <http://example.org/hotel/hasAddress> "12, Rue du Marais" .
+<http://example.org/hotel/hotelLocation58> <http://example.org/hotel/hasName> "HOTEL (L')" .
+<http://example.org/hotel/hotelLocation58> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation58> <http://example.org/hotel/hasAddress> "6 Rue Henri IV" .
+<http://example.org/hotel/hotelLocation132> <http://example.org/hotel/hasName> "LA HAUTE FORET" .
+<http://example.org/hotel/hotelLocation132> <http://example.org/hotel/hasPostalCode> "44120" .
+<http://example.org/hotel/hotelLocation99> <http://example.org/hotel/hasName> "CHEVAL BLANC (DU)" .
+<http://example.org/hotel/hotelLocation99> <http://example.org/hotel/hasPostalCode> "44400" .
+<http://example.org/hotel/hotelLocation99> <http://example.org/hotel/hasAddress> "50, Rue de la Commune" .
+<http://example.org/hotel/hotelLocation104> <http://example.org/hotel/hasName> "ETAP HOTEL NANTES NORD SAINT HERBLAIN" .
+<http://example.org/hotel/hotelLocation104> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation104> <http://example.org/hotel/hasAddress> "Avenue des Lions" .
+<http://example.org/hotel/hotelLocation145> <http://example.org/hotel/hasName> "HOTEL ECO NUIT" .
+<http://example.org/hotel/hotelLocation145> <http://example.org/hotel/hasPostalCode> "44350" .
+<http://example.org/hotel/hotelLocation145> <http://example.org/hotel/hasAddress> "Domaine de Br\u00E9hadour" .
+<http://example.org/hotel/hotelLocation117> <http://example.org/hotel/hasName> "LE TOURAINE" .
+<http://example.org/hotel/hotelLocation117> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation117> <http://example.org/hotel/hasAddress> "4, avenue de la R\u00E9publique" .
+<http://example.org/hotel/hotelLocation11> <http://example.org/hotel/hasName> "AUBERGE DE LA CASCADE" .
+<http://example.org/hotel/hotelLocation11> <http://example.org/hotel/hasPostalCode> "44190" .
+<http://example.org/hotel/hotelLocation80> <http://example.org/hotel/hasName> "TERMINUS" .
+<http://example.org/hotel/hotelLocation80> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation80> <http://example.org/hotel/hasAddress> "3, All\u00E9e du Commandant Charcot" .
+<http://example.org/hotel/hotelLocation52> <http://example.org/hotel/hasName> "A L'OREE DU BOIS" .
+<http://example.org/hotel/hotelLocation52> <http://example.org/hotel/hasPostalCode> "44510" .
+<http://example.org/hotel/hotelLocation52> <http://example.org/hotel/hasAddress> "21 rue Mar\u00E9chal Foch" .
+<http://example.org/hotel/hotelLocation5> <http://example.org/hotel/hasName> "HOTEL F1 - BOUGUENAIS" .
+<http://example.org/hotel/hotelLocation5> <http://example.org/hotel/hasPostalCode> "44340" .
+<http://example.org/hotel/hotelLocation5> <http://example.org/hotel/hasAddress> "Parc de la Bouvre" .
+<http://example.org/hotel/hotelLocation24> <http://example.org/hotel/hasName> "BRITTANY BEST WESTERN" .
+<http://example.org/hotel/hotelLocation24> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation24> <http://example.org/hotel/hasAddress> "7, avenue des Impairs" .
+<http://example.org/hotel/hotelLocation93> <http://example.org/hotel/hasName> "CITOTEL ALBERT" .
+<http://example.org/hotel/hotelLocation93> <http://example.org/hotel/hasPostalCode> "44700" .
+<http://example.org/hotel/hotelLocation93> <http://example.org/hotel/hasAddress> "129/131, route de Rennes" .
+<http://example.org/hotel/hotelLocation65> <http://example.org/hotel/hasName> "HOTEL DU COMMERCE" .
+<http://example.org/hotel/hotelLocation65> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation65> <http://example.org/hotel/hasAddress> "1 Place du commerce" .
+<http://example.org/hotel/hotelLocation37> <http://example.org/hotel/hasName> "DUNES" .
+<http://example.org/hotel/hotelLocation37> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation37> <http://example.org/hotel/hasAddress> "277, avenue de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation111> <http://example.org/hotel/hasName> "HOLIDAY INN EXPRESS" .
+<http://example.org/hotel/hotelLocation111> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation111> <http://example.org/hotel/hasAddress> "1 rue de la Floride" .
+<http://example.org/hotel/hotelLocation78> <http://example.org/hotel/hasName> "POMMERAYE" .
+<http://example.org/hotel/hotelLocation78> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation78> <http://example.org/hotel/hasAddress> "2, Rue Boileau" .
+<http://example.org/hotel/hotelLocation124> <http://example.org/hotel/hasName> "APARTE (L')" .
+<http://example.org/hotel/hotelLocation124> <http://example.org/hotel/hasPostalCode> "44980" .
+<http://example.org/hotel/hotelLocation124> <http://example.org/hotel/hasAddress> "Domaine des Th\u00E9baudi\u00E8res" .
+<http://example.org/hotel/hotelLocation137> <http://example.org/hotel/hasName> "BALLADINS" .
+<http://example.org/hotel/hotelLocation137> <http://example.org/hotel/hasPostalCode> "44470" .
+<http://example.org/hotel/hotelLocation137> <http://example.org/hotel/hasAddress> "6, rue de l'H\u00F4tellerie" .
+<http://example.org/hotel/hotelLocation31> <http://example.org/hotel/hasName> "RELAIS&CHATEAUX CASTEL MARIE-LOUISE" .
+<http://example.org/hotel/hotelLocation31> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation31> <http://example.org/hotel/hasAddress> "1, avenue Andrieu" .
+<http://example.org/hotel/hotelLocation109> <http://example.org/hotel/hasName> "LA COTE DE JADE" .
+<http://example.org/hotel/hotelLocation109> <http://example.org/hotel/hasPostalCode> "44730" .
+<http://example.org/hotel/hotelLocation109> <http://example.org/hotel/hasAddress> "2, avenue de Bretagne" .
+<http://example.org/hotel/hotelLocation72> <http://example.org/hotel/hasName> "CHATEAUBRIAND" .
+<http://example.org/hotel/hotelLocation72> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation72> <http://example.org/hotel/hasAddress> "2 bis, Rue Ch\u00E2teaubriand" .
+<http://example.org/hotel/hotelLocation44> <http://example.org/hotel/hasName> "LE CORALLI" .
+<http://example.org/hotel/hotelLocation44> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation44> <http://example.org/hotel/hasAddress> "2, avenue Pierre 1er de Serbie" .
+<http://example.org/hotel/hotelLocation16> <http://example.org/hotel/hasName> "HOTEL DE LA CITE" .
+<http://example.org/hotel/hotelLocation16> <http://example.org/hotel/hasPostalCode> "44350" .
+<http://example.org/hotel/hotelLocation16> <http://example.org/hotel/hasAddress> "2 place Dolgellau" .
+<http://example.org/hotel/hotelLocation85> <http://example.org/hotel/hasName> "OCEAN (L')" .
+<http://example.org/hotel/hotelLocation85> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation85> <http://example.org/hotel/hasAddress> "11, Rue du Mar\u00E9chal de Lattre de Tassign" .
+<http://example.org/hotel/hotelLocation57> <http://example.org/hotel/hasName> "HOTEL F1 - NANTES EST PORTE DE SAINTE LUCE" .
+<http://example.org/hotel/hotelLocation57> <http://example.org/hotel/hasPostalCode> "44303" .
+<http://example.org/hotel/hotelLocation57> <http://example.org/hotel/hasAddress> "345, Route de Sainte Luce" .
+<http://example.org/hotel/hotelLocation29> <http://example.org/hotel/hasName> "SAINT CHRISTOPHE" .
+<http://example.org/hotel/hotelLocation29> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation29> <http://example.org/hotel/hasAddress> "Place Notre Dame" .
+<http://example.org/hotel/hotelLocation131> <http://example.org/hotel/hasName> "LE DON QUICHOTTE" .
+<http://example.org/hotel/hotelLocation131> <http://example.org/hotel/hasPostalCode> "44330" .
+<http://example.org/hotel/hotelLocation131> <http://example.org/hotel/hasAddress> "35 route de Clisson" .
+<http://example.org/hotel/hotelLocation98> <http://example.org/hotel/hasName> "PREMIERE CLASSE - REZE" .
+<http://example.org/hotel/hotelLocation98> <http://example.org/hotel/hasPostalCode> "44406" .
+<http://example.org/hotel/hotelLocation98> <http://example.org/hotel/hasAddress> "4, impasse Ordronneau" .
+<http://example.org/hotel/hotelLocation103> <http://example.org/hotel/hasName> "PREMIERE CLASSE - SAINT HERBLAIN" .
+<http://example.org/hotel/hotelLocation103> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation103> <http://example.org/hotel/hasAddress> "Rue du Moulin de la Rousseli\u00E8re" .
+<http://example.org/hotel/hotelLocation144> <http://example.org/hotel/hasName> "ESCALE OCEANIA" .
+<http://example.org/hotel/hotelLocation144> <http://example.org/hotel/hasPostalCode> "44380" .
+<http://example.org/hotel/hotelLocation144> <http://example.org/hotel/hasAddress> "50 avenue de la Plage" .
+<http://example.org/hotel/hotelLocation116> <http://example.org/hotel/hasName> "LE SAINT LOUIS" .
+<http://example.org/hotel/hotelLocation116> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation116> <http://example.org/hotel/hasAddress> "48, rue des Halles" .
+<http://example.org/hotel/hotelLocation10> <http://example.org/hotel/hasName> "LA GARE" .
+<http://example.org/hotel/hotelLocation10> <http://example.org/hotel/hasPostalCode> "44190" .
+<http://example.org/hotel/hotelLocation129> <http://example.org/hotel/hasName> "HOTEL B&B" .
+<http://example.org/hotel/hotelLocation129> <http://example.org/hotel/hasPostalCode> "44570" .
+<http://example.org/hotel/hotelLocation129> <http://example.org/hotel/hasAddress> "Rue des Aigrettes" .
+<http://example.org/hotel/hotelLocation51> <http://example.org/hotel/hasName> "LES FARFADETS" .
+<http://example.org/hotel/hotelLocation51> <http://example.org/hotel/hasPostalCode> "44510" .
+<http://example.org/hotel/hotelLocation51> <http://example.org/hotel/hasAddress> "28 quai Jules Sandeau" .
+<http://example.org/hotel/hotelLocation4> <http://example.org/hotel/hasName> "B&B H\u00D4TEL NANTES AEROPORT" .
+<http://example.org/hotel/hotelLocation4> <http://example.org/hotel/hasPostalCode> "44346" .
+<http://example.org/hotel/hotelLocation4> <http://example.org/hotel/hasAddress> "Lat\u00E9co\u00E8re" .
+<http://example.org/hotel/hotelLocation23> <http://example.org/hotel/hasName> "LA VILLA CAROLINE" .
+<http://example.org/hotel/hotelLocation23> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation23> <http://example.org/hotel/hasAddress> "46, avenue des Lilas" .
+<http://example.org/hotel/hotelLocation92> <http://example.org/hotel/hasName> "INTER HOTEL AGORA" .
+<http://example.org/hotel/hotelLocation92> <http://example.org/hotel/hasPostalCode> "44700" .
+<http://example.org/hotel/hotelLocation92> <http://example.org/hotel/hasAddress> "31, Rue Jules Verne" .
+<http://example.org/hotel/hotelLocation64> <http://example.org/hotel/hasName> "B&B H\u00D4TEL NANTES LA BEAUJOIRE" .
+<http://example.org/hotel/hotelLocation64> <http://example.org/hotel/hasPostalCode> "44300" .
+<http://example.org/hotel/hotelLocation64> <http://example.org/hotel/hasAddress> "82 Route de Paris - La Beaujoire" .
+<http://example.org/hotel/hotelLocation36> <http://example.org/hotel/hasName> "LA CLOSERIE" .
+<http://example.org/hotel/hotelLocation36> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation36> <http://example.org/hotel/hasAddress> "173, avenue de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation110> <http://example.org/hotel/hasName> "BRIT HOTEL LE KORALI" .
+<http://example.org/hotel/hotelLocation110> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation110> <http://example.org/hotel/hasAddress> "2, rue du Commandant l'Herminier" .
+<http://example.org/hotel/hotelLocation77> <http://example.org/hotel/hasName> "GRAND HOTEL DE NANTES" .
+<http://example.org/hotel/hotelLocation77> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation77> <http://example.org/hotel/hasAddress> "2 bis, Rue Santeuil" .
+<http://example.org/hotel/hotelLocation49> <http://example.org/hotel/hasName> "LES NIDS" .
+<http://example.org/hotel/hotelLocation49> <http://example.org/hotel/hasPostalCode> "44490" .
+<http://example.org/hotel/hotelLocation49> <http://example.org/hotel/hasAddress> "15 rue Pasteur" .
+<http://example.org/hotel/hotelLocation123> <http://example.org/hotel/hasName> "PREMIERE CLASSE - SAINTE LUCE SUR LOIRE" .
+<http://example.org/hotel/hotelLocation123> <http://example.org/hotel/hasPostalCode> "44980" .
+<http://example.org/hotel/hotelLocation123> <http://example.org/hotel/hasAddress> "2, Rue Louis Armand" .
+<http://example.org/hotel/hotelLocation136> <http://example.org/hotel/hasName> "ALL SEASONS NANTES SUD REZE" .
+<http://example.org/hotel/hotelLocation136> <http://example.org/hotel/hasPostalCode> "44400" .
+<http://example.org/hotel/hotelLocation136> <http://example.org/hotel/hasAddress> "1, rue de l'ile Mace" .
+<http://example.org/hotel/hotelLocation30> <http://example.org/hotel/hasName> "LE SAINT PIERRE" .
+<http://example.org/hotel/hotelLocation30> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation30> <http://example.org/hotel/hasAddress> "124, avenue de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation108> <http://example.org/hotel/hasName> "KYRIAD SAINT-HERBLAIN" .
+<http://example.org/hotel/hotelLocation108> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation108> <http://example.org/hotel/hasAddress> "Esplanade Ella Fitzgerald" .
+<http://example.org/hotel/hotelLocation71> <http://example.org/hotel/hasName> "COMFORT HOTEL NANTES ASTORIA" .
+<http://example.org/hotel/hotelLocation71> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation71> <http://example.org/hotel/hasAddress> "4, all\u00E9e du commandant Charcot" .
+<http://example.org/hotel/hotelLocation149> <http://example.org/hotel/hasName> "SOZO HOTEL" .
+<http://example.org/hotel/hotelLocation149> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation149> <http://example.org/hotel/hasAddress> "16, rue Fr\u00E9d\u00E9ric Cailliaud" .
+<http://example.org/hotel/hotelLocation43> <http://example.org/hotel/hasName> "TY GWENN" .
+<http://example.org/hotel/hotelLocation43> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation43> <http://example.org/hotel/hasAddress> "25, avenue de la Grande Dune" .
+<http://example.org/hotel/hotelLocation15> <http://example.org/hotel/hasName> "LES REMP'ARTS" .
+<http://example.org/hotel/hotelLocation15> <http://example.org/hotel/hasPostalCode> "44350" .
+<http://example.org/hotel/hotelLocation15> <http://example.org/hotel/hasAddress> "14-15 boulevard du Nord" .
+<http://example.org/hotel/hotelLocation84> <http://example.org/hotel/hasName> "GRAND MONARQUE (DU)" .
+<http://example.org/hotel/hotelLocation84> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation84> <http://example.org/hotel/hasAddress> "36, Rue du Mar\u00E9chal Joffre" .
+<http://example.org/hotel/hotelLocation56> <http://example.org/hotel/hasName> "B&B H\u00D4TEL NANTES CENTRE" .
+<http://example.org/hotel/hotelLocation56> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation56> <http://example.org/hotel/hasAddress> "10, Place Viarme" .
+<http://example.org/hotel/hotelLocation9> <http://example.org/hotel/hasName> "ETAP HOTEL" .
+<http://example.org/hotel/hotelLocation9> <http://example.org/hotel/hasPostalCode> "44110" .
+<http://example.org/hotel/hotelLocation9> <http://example.org/hotel/hasAddress> "Route de St Nazaire" .
+<http://example.org/hotel/hotelLocation28> <http://example.org/hotel/hasName> "LA MASCOTTE" .
+<http://example.org/hotel/hotelLocation28> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation28> <http://example.org/hotel/hasAddress> "26, avenue Marie Louise" .
+<http://example.org/hotel/hotelLocation130> <http://example.org/hotel/hasName> "CLAIR DE LIE" .
+<http://example.org/hotel/hotelLocation130> <http://example.org/hotel/hasPostalCode> "44330" .
+<http://example.org/hotel/hotelLocation97> <http://example.org/hotel/hasName> "NUIT DE RETZ" .
+<http://example.org/hotel/hotelLocation97> <http://example.org/hotel/hasPostalCode> "44710" .
+<http://example.org/hotel/hotelLocation97> <http://example.org/hotel/hasAddress> "Zone de Loisirs - rue du Grand Pr\u00E9" .
+<http://example.org/hotel/hotelLocation102> <http://example.org/hotel/hasName> "HOTEL F1 - SAINT HERBLAIN" .
+<http://example.org/hotel/hotelLocation102> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation102> <http://example.org/hotel/hasAddress> "4, Rue des Piliers de la Chauvini\u00E8re" .
+<http://example.org/hotel/hotelLocation69> <http://example.org/hotel/hasName> "GRASLIN (LE)" .
+<http://example.org/hotel/hotelLocation69> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation69> <http://example.org/hotel/hasAddress> "1 rue Piron" .
+<http://example.org/hotel/hotelLocation143> <http://example.org/hotel/hasName> "CAMPANILE NANTES CENTRE SAINT JACQUES" .
+<http://example.org/hotel/hotelLocation143> <http://example.org/hotel/hasPostalCode> "44200" .
+<http://example.org/hotel/hotelLocation143> <http://example.org/hotel/hasAddress> "16 boulevard Emile Gabory" .
+<http://example.org/hotel/hotelLocation115> <http://example.org/hotel/hasName> "L'EUROPE" .
+<http://example.org/hotel/hotelLocation115> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation115> <http://example.org/hotel/hasAddress> "2, place des Martyrs de la R\u00E9sistance" .
+<http://example.org/hotel/hotelLocation128> <http://example.org/hotel/hasName> "IBIS " .
+<http://example.org/hotel/hotelLocation128> <http://example.org/hotel/hasPostalCode> "44570" .
+<http://example.org/hotel/hotelLocation128> <http://example.org/hotel/hasAddress> "5, rue la fontaine au brun" .
+<http://example.org/hotel/hotelLocation50> <http://example.org/hotel/hasName> "LE MOND\u00C8S" .
+<http://example.org/hotel/hotelLocation50> <http://example.org/hotel/hasPostalCode> "44510" .
+<http://example.org/hotel/hotelLocation50> <http://example.org/hotel/hasAddress> "13 rue du Centre" .
+<http://example.org/hotel/hotelLocation3> <http://example.org/hotel/hasName> "LES EMBRUNS" .
+<http://example.org/hotel/hotelLocation3> <http://example.org/hotel/hasPostalCode> "44740" .
+<http://example.org/hotel/hotelLocation3> <http://example.org/hotel/hasAddress> "Route du Croisic" .
+<http://example.org/hotel/hotelLocation22> <http://example.org/hotel/hasName> "MERCURE LA BAULE MAJESTIC" .
+<http://example.org/hotel/hotelLocation22> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation22> <http://example.org/hotel/hasAddress> "14, esplanade Lucien Barri\u00E8re" .
+<http://example.org/hotel/hotelLocation91> <http://example.org/hotel/hasName> "LE RELAIS DE LA GRANGE" .
+<http://example.org/hotel/hotelLocation91> <http://example.org/hotel/hasPostalCode> "44390" .
+<http://example.org/hotel/hotelLocation91> <http://example.org/hotel/hasAddress> "P.A La Pancarte" .
+<http://example.org/hotel/hotelLocation63> <http://example.org/hotel/hasName> "TRIANON" .
+<http://example.org/hotel/hotelLocation63> <http://example.org/hotel/hasPostalCode> "44200" .
+<http://example.org/hotel/hotelLocation63> <http://example.org/hotel/hasAddress> "43 Boulevard Victor Hugo" .
+<http://example.org/hotel/hotelLocation35> <http://example.org/hotel/hasName> "MONA LISA" .
+<http://example.org/hotel/hotelLocation35> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation35> <http://example.org/hotel/hasAddress> "42, avenue Georges Clemenceau" .
+<http://example.org/hotel/hotelLocation76> <http://example.org/hotel/hasName> "HOTEL DE LA GARE - CITOTEL" .
+<http://example.org/hotel/hotelLocation76> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation76> <http://example.org/hotel/hasAddress> "5, All\u00E9e du Commandant Charcot" .
+<http://example.org/hotel/hotelLocation48> <http://example.org/hotel/hasName> "LES VIKINGS" .
+<http://example.org/hotel/hotelLocation48> <http://example.org/hotel/hasPostalCode> "44490" .
+<http://example.org/hotel/hotelLocation48> <http://example.org/hotel/hasAddress> "Port Lin" .
+<http://example.org/hotel/hotelLocation122> <http://example.org/hotel/hasName> "LE RELAIS DE NANTES - PREMIER PRIX HOTEL" .
+<http://example.org/hotel/hotelLocation122> <http://example.org/hotel/hasPostalCode> "44980" .
+<http://example.org/hotel/hotelLocation122> <http://example.org/hotel/hasAddress> "16, Rue Marcel Dassault" .
+<http://example.org/hotel/hotelLocation89> <http://example.org/hotel/hasName> "TOURISME (DU)" .
+<http://example.org/hotel/hotelLocation89> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation89> <http://example.org/hotel/hasAddress> "5, All\u00E9e Duquesne - Cours des 50 Otages" .
+<http://example.org/hotel/hotelLocation135> <http://example.org/hotel/hasName> "HOTEL TEST" .
+<http://example.org/hotel/hotelLocation135> <http://example.org/hotel/hasPostalCode> "44300" .
+<http://example.org/hotel/hotelLocation135> <http://example.org/hotel/hasAddress> "11 rue du Chateau" .
+<http://example.org/hotel/hotelLocation107> <http://example.org/hotel/hasName> "BALLADINS NANTES SAINT HERBLAIN" .
+<http://example.org/hotel/hotelLocation107> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation107> <http://example.org/hotel/hasAddress> "1, Rue des Piliers de la Chauvini\u00E8re" .
+<http://example.org/hotel/hotelLocation70> <http://example.org/hotel/hasName> "ALL SEASONS NANTES CENTRE" .
+<http://example.org/hotel/hotelLocation70> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation70> <http://example.org/hotel/hasAddress> "3, Rue du Cou\u00EBdic" .
+<http://example.org/hotel/hotelLocation148> <http://example.org/hotel/hasName> "QUICK PALACE" .
+<http://example.org/hotel/hotelLocation148> <http://example.org/hotel/hasPostalCode> "44300" .
+<http://example.org/hotel/hotelLocation148> <http://example.org/hotel/hasAddress> "6, Rue du Chemin Rouge" .
+<http://example.org/hotel/hotelLocation42> <http://example.org/hotel/hasName> "LES TENNIS MEN" .
+<http://example.org/hotel/hotelLocation42> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation42> <http://example.org/hotel/hasAddress> "1, avenue de Lyon" .
+<http://example.org/hotel/hotelLocation14> <http://example.org/hotel/hasName> "EUROCEAN" .
+<http://example.org/hotel/hotelLocation14> <http://example.org/hotel/hasPostalCode> "44350" .
+<http://example.org/hotel/hotelLocation14> <http://example.org/hotel/hasAddress> "7 place de Kerhilliers" .
+<http://example.org/hotel/hotelLocation83> <http://example.org/hotel/hasName> "CHATEAU (DU)" .
+<http://example.org/hotel/hotelLocation83> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation83> <http://example.org/hotel/hasAddress> "5, Place de la Duchesse Anne" .
+<http://example.org/hotel/hotelLocation55> <http://example.org/hotel/hasName> "STARS" .
+<http://example.org/hotel/hotelLocation55> <http://example.org/hotel/hasPostalCode> "44303" .
+<http://example.org/hotel/hotelLocation55> <http://example.org/hotel/hasAddress> "3 rue du Petit Chatelier" .
+<http://example.org/hotel/hotelLocation8> <http://example.org/hotel/hasName> "LE CHATEAUBRIANT" .
+<http://example.org/hotel/hotelLocation8> <http://example.org/hotel/hasPostalCode> "44110" .
+<http://example.org/hotel/hotelLocation8> <http://example.org/hotel/hasAddress> "30, rue du 11 novembre" .
+<http://example.org/hotel/hotelLocation27> <http://example.org/hotel/hasName> "LUTETIA" .
+<http://example.org/hotel/hotelLocation27> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation27> <http://example.org/hotel/hasAddress> "13, avenue Olivier Guichard" .
+<http://example.org/hotel/hotelLocation96> <http://example.org/hotel/hasName> "ARC EN CIEL" .
+<http://example.org/hotel/hotelLocation96> <http://example.org/hotel/hasPostalCode> "44210" .
+<http://example.org/hotel/hotelLocation96> <http://example.org/hotel/hasAddress> "Les Gentelleries" .
+<http://example.org/hotel/hotelLocation101> <http://example.org/hotel/hasName> "B&B HOTEL NANTES SAINT HERBLAIN" .
+<http://example.org/hotel/hotelLocation101> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation101> <http://example.org/hotel/hasAddress> "rue du Moulin de la Rousseli\u00E8re - D201" .
+<http://example.org/hotel/hotelLocation68> <http://example.org/hotel/hasName> "BOURGOGNE (DE)" .
+<http://example.org/hotel/hotelLocation68> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation68> <http://example.org/hotel/hasAddress> "9 All\u00E9e du Commandant Charcot" .
+<http://example.org/hotel/hotelLocation142> <http://example.org/hotel/hasName> "CAMBRONNE (LE)" .
+<http://example.org/hotel/hotelLocation142> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation142> <http://example.org/hotel/hasAddress> "11, Rue Fourcroy" .
+<http://example.org/hotel/hotelLocation114> <http://example.org/hotel/hasName> "LE DAUPHIN" .
+<http://example.org/hotel/hotelLocation114> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation114> <http://example.org/hotel/hasAddress> "33, rue Jean Jaur\u00E8s" .
+<http://example.org/hotel/hotelLocation127> <http://example.org/hotel/hasName> "HOTEL F1" .
+<http://example.org/hotel/hotelLocation127> <http://example.org/hotel/hasPostalCode> "44570" .
+<http://example.org/hotel/hotelLocation127> <http://example.org/hotel/hasAddress> "Rue des Aigrettes" .
+<http://example.org/hotel/hotelLocation2> <http://example.org/hotel/hasName> "LE LICHEN DE LA MER" .
+<http://example.org/hotel/hotelLocation2> <http://example.org/hotel/hasPostalCode> "44740" .
+<http://example.org/hotel/hotelLocation2> <http://example.org/hotel/hasAddress> "4 route de la Govelle" .
+<http://example.org/hotel/hotelLocation21> <http://example.org/hotel/hasName> "BELLEVUE PLAGE" .
+<http://example.org/hotel/hotelLocation21> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation21> <http://example.org/hotel/hasAddress> "27, boulevard de l'Oc\u00E9an" .
+<http://example.org/hotel/hotelLocation90> <http://example.org/hotel/hasName> "SAINT YVES" .
+<http://example.org/hotel/hotelLocation90> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation90> <http://example.org/hotel/hasAddress> "154, Rue du G\u00E9n\u00E9ral Buat" .
+<http://example.org/hotel/hotelLocation62> <http://example.org/hotel/hasName> "LONGCHAMP (LE)" .
+<http://example.org/hotel/hotelLocation62> <http://example.org/hotel/hasPostalCode> "44100" .
+<http://example.org/hotel/hotelLocation62> <http://example.org/hotel/hasAddress> "78/80, Route de Vannes" .
+<http://example.org/hotel/hotelLocation34> <http://example.org/hotel/hasName> "ASTROLABE" .
+<http://example.org/hotel/hotelLocation34> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation34> <http://example.org/hotel/hasAddress> "106, avenue de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation75> <http://example.org/hotel/hasName> "IBIS STYLE NANTES PLACE GRASLIN " .
+<http://example.org/hotel/hotelLocation75> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation75> <http://example.org/hotel/hasAddress> "5, rue du Chapeau Rouge" .
+<http://example.org/hotel/hotelLocation47> <http://example.org/hotel/hasName> "LES CHANTS D'AILES" .
+<http://example.org/hotel/hotelLocation47> <http://example.org/hotel/hasPostalCode> "44420" .
+<http://example.org/hotel/hotelLocation47> <http://example.org/hotel/hasAddress> "11 boulevard Bellanger" .
+<http://example.org/hotel/hotelLocation19> <http://example.org/hotel/hasName> "ROYAL-THALASSO-BARRIERE" .
+<http://example.org/hotel/hotelLocation19> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation19> <http://example.org/hotel/hasAddress> "6, avenue Pierre Loti" .
+<http://example.org/hotel/hotelLocation121> <http://example.org/hotel/hasName> "PREMIERE CLASSE - SAINT SEBASTIEN SUR LOIRE" .
+<http://example.org/hotel/hotelLocation121> <http://example.org/hotel/hasPostalCode> "44230" .
+<http://example.org/hotel/hotelLocation121> <http://example.org/hotel/hasAddress> "1, Avenue Jules Verne" .
+<http://example.org/hotel/hotelLocation88> <http://example.org/hotel/hasName> "SAINT DANIEL" .
+<http://example.org/hotel/hotelLocation88> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation88> <http://example.org/hotel/hasAddress> "4, Rue du Bouffay" .
+<http://example.org/hotel/hotelLocation134> <http://example.org/hotel/hasName> "LE BEAUTOUR" .
+<http://example.org/hotel/hotelLocation134> <http://example.org/hotel/hasPostalCode> "44120" .
+<http://example.org/hotel/hotelLocation134> <http://example.org/hotel/hasAddress> "51 route de Nantes" .
+<http://example.org/hotel/hotelLocation106> <http://example.org/hotel/hasName> "ATLANTYS HOTEL" .
+<http://example.org/hotel/hotelLocation106> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation106> <http://example.org/hotel/hasAddress> "8 rue des cochardi\u00E8res" .
+<http://example.org/hotel/hotelLocation147> <http://example.org/hotel/hasName> "NOVELLA NANTES CARQUEFOU" .
+<http://example.org/hotel/hotelLocation147> <http://example.org/hotel/hasPostalCode> "44470" .
+<http://example.org/hotel/hotelLocation147> <http://example.org/hotel/hasAddress> "8 rue de l'H\u00F4tellerie" .
+<http://example.org/hotel/hotelLocation41> <http://example.org/hotel/hasName> "PLEIADES" .
+<http://example.org/hotel/hotelLocation41> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation41> <http://example.org/hotel/hasAddress> "28, boulevard Docteur Ren\u00E9 Dubois" .
+<http://example.org/hotel/hotelLocation119> <http://example.org/hotel/hasName> "BEL HOTEL" .
+<http://example.org/hotel/hotelLocation119> <http://example.org/hotel/hasPostalCode> "44460" .
+<http://example.org/hotel/hotelLocation119> <http://example.org/hotel/hasAddress> "42, avenue Jean Burel" .
+<http://example.org/hotel/hotelLocation13> <http://example.org/hotel/hasName> "ETAP HOTEL NANTES OUEST" .
+<http://example.org/hotel/hotelLocation13> <http://example.org/hotel/hasPostalCode> "44220" .
+<http://example.org/hotel/hotelLocation13> <http://example.org/hotel/hasAddress> "Route de Vannes" .
+<http://example.org/hotel/hotelLocation82> <http://example.org/hotel/hasName> "BOURSE (DE LA)" .
+<http://example.org/hotel/hotelLocation82> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation82> <http://example.org/hotel/hasAddress> "19, Quai de la Fosse" .
+<http://example.org/hotel/hotelLocation54> <http://example.org/hotel/hasName> "AMIRAL" .
+<http://example.org/hotel/hotelLocation54> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation54> <http://example.org/hotel/hasAddress> "26 bis, Rue Scribe" .
+<http://example.org/hotel/hotelLocation7> <http://example.org/hotel/hasName> "\"HOTEL F1 - CARQUEFOU \"\"LA BELLE ETOILE\"\"\"" .
+<http://example.org/hotel/hotelLocation7> <http://example.org/hotel/hasPostalCode> "44470" .
+<http://example.org/hotel/hotelLocation7> <http://example.org/hotel/hasAddress> "2, All\u00E9e des Sapins" .
+<http://example.org/hotel/hotelLocation26> <http://example.org/hotel/hasName> "HOSTELLERIE DU BOIS" .
+<http://example.org/hotel/hotelLocation26> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation26> <http://example.org/hotel/hasAddress> "65, avenue Lajarrige" .
+<http://example.org/hotel/hotelLocation95> <http://example.org/hotel/hasName> "BRIT HOTEL LES ALIZES" .
+<http://example.org/hotel/hotelLocation95> <http://example.org/hotel/hasPostalCode> "44210" .
+<http://example.org/hotel/hotelLocation95> <http://example.org/hotel/hasAddress> "44 rue du G\u00E9n\u00E9ral de Gaulle" .
+<http://example.org/hotel/hotelLocation100> <http://example.org/hotel/hasName> "L'ESTUAIRE" .
+<http://example.org/hotel/hotelLocation100> <http://example.org/hotel/hasPostalCode> "44250" .
+<http://example.org/hotel/hotelLocation100> <http://example.org/hotel/hasAddress> "Parc d'Activit\u00E9s de la Guerche" .
+<http://example.org/hotel/hotelLocation67> <http://example.org/hotel/hasName> "HOTEL MERCURE NANTES CENTRAL" .
+<http://example.org/hotel/hotelLocation67> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation67> <http://example.org/hotel/hasAddress> "4 Rue du Cou\u00EBdic" .
+<http://example.org/hotel/hotelLocation39> <http://example.org/hotel/hasName> "LA PALMERAIE" .
+<http://example.org/hotel/hotelLocation39> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation39> <http://example.org/hotel/hasAddress> "7, avenue des Cormorans" .
+<http://example.org/hotel/hotelLocation141> <http://example.org/hotel/hasName> "BRIT HOTEL BELFORT" .
+<http://example.org/hotel/hotelLocation141> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation141> <http://example.org/hotel/hasAddress> "1 Rue de Belfort" .
+<http://example.org/hotel/hotelLocation113> <http://example.org/hotel/hasName> "LE BRETAGNE" .
+<http://example.org/hotel/hotelLocation113> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation113> <http://example.org/hotel/hasAddress> "7, avenue de la R\u00E9publique" .
+<http://example.org/hotel/hotelLocation126> <http://example.org/hotel/hasName> "HOTEL PREMIERE CLASSE" .
+<http://example.org/hotel/hotelLocation126> <http://example.org/hotel/hasPostalCode> "44570" .
+<http://example.org/hotel/hotelLocation126> <http://example.org/hotel/hasAddress> "rue des Aigrettes" .
+<http://example.org/hotel/hotelLocation1> <http://example.org/hotel/hasName> "LE BRETAGNE" .
+<http://example.org/hotel/hotelLocation1> <http://example.org/hotel/hasPostalCode> "44410" .
+<http://example.org/hotel/hotelLocation1> <http://example.org/hotel/hasAddress> "33 rue du Mes" .
+<http://example.org/hotel/hotelLocation20> <http://example.org/hotel/hasName> "ALCYON" .
+<http://example.org/hotel/hotelLocation20> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation20> <http://example.org/hotel/hasAddress> "19, all\u00E9e des P\u00E9trels" .
+<http://example.org/hotel/hotelLocation61> <http://example.org/hotel/hasName> "DUQUESNE" .
+<http://example.org/hotel/hotelLocation61> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation61> <http://example.org/hotel/hasAddress> "12 all\u00E9e Duquesne" .
+<http://example.org/hotel/hotelLocation139> <http://example.org/hotel/hasName> "BEST WESTERN GARDEN AND SPA" .
+<http://example.org/hotel/hotelLocation139> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation139> <http://example.org/hotel/hasAddress> "30, avenue du Bois d'Amour" .
+<http://example.org/hotel/hotelLocation33> <http://example.org/hotel/hasName> "CONCORDE" .
+<http://example.org/hotel/hotelLocation33> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation33> <http://example.org/hotel/hasAddress> "1, bis avenue de La Concorde" .
+<http://example.org/hotel/hotelLocation74> <http://example.org/hotel/hasName> "COEUR DE LOIRE" .
+<http://example.org/hotel/hotelLocation74> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation74> <http://example.org/hotel/hasAddress> "3, Rue Anatole Le Braz" .
+<http://example.org/hotel/hotelLocation46> <http://example.org/hotel/hasName> "DELMAR HOTEL" .
+<http://example.org/hotel/hotelLocation46> <http://example.org/hotel/hasPostalCode> "44118" .
+<http://example.org/hotel/hotelLocation46> <http://example.org/hotel/hasAddress> "4, rue de la Guillauderie" .
+<http://example.org/hotel/hotelLocation18> <http://example.org/hotel/hasName> "HERMITAGE BARRIERE" .
+<http://example.org/hotel/hotelLocation18> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation18> <http://example.org/hotel/hasAddress> "5 esplanade Lucien Barri\u00E8re" .
+<http://example.org/hotel/hotelLocation120> <http://example.org/hotel/hasName> "B&B H\u00D4TEL NANTES SAINT SEBASTIEN" .
+<http://example.org/hotel/hotelLocation120> <http://example.org/hotel/hasPostalCode> "44230" .
+<http://example.org/hotel/hotelLocation120> <http://example.org/hotel/hasAddress> "10, Avenue Jules Verne" .
+<http://example.org/hotel/hotelLocation87> <http://example.org/hotel/hasName> "RENOVA" .
+<http://example.org/hotel/hotelLocation87> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation87> <http://example.org/hotel/hasAddress> "11, Rue Beauregard" .
+<http://example.org/hotel/hotelLocation59> <http://example.org/hotel/hasName> "KYRIAD NANTES GARE" .
+<http://example.org/hotel/hotelLocation59> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation59> <http://example.org/hotel/hasAddress> "8 All\u00E9e du Commandant Charcot" .
+<http://example.org/hotel/hotelLocation133> <http://example.org/hotel/hasName> "LE LAURIER FLEURI" .
+<http://example.org/hotel/hotelLocation133> <http://example.org/hotel/hasPostalCode> "44120" .
+<http://example.org/hotel/hotelLocation133> <http://example.org/hotel/hasAddress> "460 Route de Clisson" .
+<http://example.org/hotel/hotelLocation105> <http://example.org/hotel/hasName> "AGIL" .
+<http://example.org/hotel/hotelLocation105> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation105> <http://example.org/hotel/hasAddress> "Route de Saint Etienne de Montluc" .
+<http://example.org/hotel/hotelLocation146> <http://example.org/hotel/hasName> "LE CHEVAL BLANC" .
+<http://example.org/hotel/hotelLocation146> <http://example.org/hotel/hasPostalCode> "44430" .
+<http://example.org/hotel/hotelLocation146> <http://example.org/hotel/hasAddress> "Place de l'Eglise" .
+<http://example.org/hotel/hotelLocation40> <http://example.org/hotel/hasName> "LE PARIS" .
+<http://example.org/hotel/hotelLocation40> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation40> <http://example.org/hotel/hasAddress> "138, avenue des Ondines" .
+<http://example.org/hotel/hotelLocation118> <http://example.org/hotel/hasName> "HOTEL ANAIADE" .
+<http://example.org/hotel/hotelLocation118> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation118> <http://example.org/hotel/hasAddress> "45 route de Fondeline" .
+<http://example.org/hotel/hotelLocation12> <http://example.org/hotel/hasName> "BEST WESTERN VILLA SAINT ANTOINE" .
+<http://example.org/hotel/hotelLocation12> <http://example.org/hotel/hasPostalCode> "44190" .
+<http://example.org/hotel/hotelLocation12> <http://example.org/hotel/hasAddress> "8 rue St Antoine" .
+<http://example.org/hotel/hotelLocation81> <http://example.org/hotel/hasName> "ABAT JOUR" .
+<http://example.org/hotel/hotelLocation81> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation81> <http://example.org/hotel/hasAddress> "17, Rue Geoffroy Drouet" .
+<http://example.org/hotel/hotelLocation53> <http://example.org/hotel/hasName> "ETAP HOTEL ANCENIS" .
+<http://example.org/hotel/hotelLocation53> <http://example.org/hotel/hasPostalCode> "44522" .
+<http://example.org/hotel/hotelLocation53> <http://example.org/hotel/hasAddress> "630 rue de l'Industrie" .
+<http://example.org/hotel/hotelLocation6> <http://example.org/hotel/hasName> "ESCALE OCEANIA" .
+<http://example.org/hotel/hotelLocation6> <http://example.org/hotel/hasPostalCode> "44340" .
+<http://example.org/hotel/hotelLocation6> <http://example.org/hotel/hasAddress> "A\u00E9roport de Nantes Atlantique" .
+<http://example.org/hotel/hotelLocation25> <http://example.org/hotel/hasName> "VILLA CAP D'AIL" .
+<http://example.org/hotel/hotelLocation25> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation25> <http://example.org/hotel/hasAddress> "145, avenue de Lattre de Tassigny" .
+<http://example.org/hotel/hotelLocation94> <http://example.org/hotel/hasName> "BEAU SOLEIL" .
+<http://example.org/hotel/hotelLocation94> <http://example.org/hotel/hasPostalCode> "44210" .
+<http://example.org/hotel/hotelLocation94> <http://example.org/hotel/hasAddress> "70 quai Leray" .
+<http://example.org/hotel/hotelLocation66> <http://example.org/hotel/hasName> "SAINT PATRICK" .
+<http://example.org/hotel/hotelLocation66> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation66> <http://example.org/hotel/hasAddress> "7 Rue Saint Nicolas" .
+<http://example.org/hotel/hotelLocation38> <http://example.org/hotel/hasName> "MARINI" .
+<http://example.org/hotel/hotelLocation38> <http://example.org/hotel/hasPostalCode> "44500" .
+<http://example.org/hotel/hotelLocation38> <http://example.org/hotel/hasAddress> "22, avenue Georges Clemenceau" .
+<http://example.org/hotel/hotelLocation140> <http://example.org/hotel/hasName> "BEST WESTERN PLUS LE COLISEE" .
+<http://example.org/hotel/hotelLocation140> <http://example.org/hotel/hasPostalCode> "44800" .
+<http://example.org/hotel/hotelLocation140> <http://example.org/hotel/hasAddress> "29, rue Bobby Sands" .
+<http://example.org/hotel/hotelLocation112> <http://example.org/hotel/hasName> "LA BELLE EPEE" .
+<http://example.org/hotel/hotelLocation112> <http://example.org/hotel/hasPostalCode> "44600" .
+<http://example.org/hotel/hotelLocation112> <http://example.org/hotel/hasAddress> "45, rue Jean Jaur\u00E8s" .
+<http://example.org/hotel/hotelLocation79> <http://example.org/hotel/hasName> "SURCOUF (LE)" .
+<http://example.org/hotel/hotelLocation79> <http://example.org/hotel/hasPostalCode> "44000" .
+<http://example.org/hotel/hotelLocation79> <http://example.org/hotel/hasAddress> "38, Rue de Richebourg" .

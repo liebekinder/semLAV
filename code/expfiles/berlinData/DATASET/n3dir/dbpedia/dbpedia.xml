@@ -1,0 +1,407 @@
+<rdf:RDF xmlns:res="http://www.w3.org/2005/sparql-results#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:nodeID="rset">
+<rdf:type rdf:resource="http://www.w3.org/2005/sparql-results#ResultSet" />
+    <res:resultVariable>ville</res:resultVariable>
+    <res:resultVariable>pc</res:resultVariable>
+    <res:solution rdf:nodeID="r0">
+      <res:binding rdf:nodeID="r0c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Rez%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r0c1"><res:variable>pc</res:variable><res:value xml:lang="en">44400</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r1">
+      <res:binding rdf:nodeID="r1c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Nazaire"/></res:binding>
+      <res:binding rdf:nodeID="r1c1"><res:variable>pc</res:variable><res:value xml:lang="en">44600</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r2">
+      <res:binding rdf:nodeID="r2c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Carquefou"/></res:binding>
+      <res:binding rdf:nodeID="r2c1"><res:variable>pc</res:variable><res:value xml:lang="en">44470</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r3">
+      <res:binding rdf:nodeID="r3c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Pornichet"/></res:binding>
+      <res:binding rdf:nodeID="r3c1"><res:variable>pc</res:variable><res:value xml:lang="en">44380</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r4">
+      <res:binding rdf:nodeID="r4c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Croisic"/></res:binding>
+      <res:binding rdf:nodeID="r4c1"><res:variable>pc</res:variable><res:value xml:lang="en">44490</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r5">
+      <res:binding rdf:nodeID="r5c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Bignon"/></res:binding>
+      <res:binding rdf:nodeID="r5c1"><res:variable>pc</res:variable><res:value xml:lang="en">44140</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r6">
+      <res:binding rdf:nodeID="r6c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Planche"/></res:binding>
+      <res:binding rdf:nodeID="r6c1"><res:variable>pc</res:variable><res:value xml:lang="en">44140</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r7">
+      <res:binding rdf:nodeID="r7c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Brains,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r7c1"><res:variable>pc</res:variable><res:value xml:lang="en">44830</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r8">
+      <res:binding rdf:nodeID="r8c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Bouguenais"/></res:binding>
+      <res:binding rdf:nodeID="r8c1"><res:variable>pc</res:variable><res:value xml:lang="en">44340</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r9">
+      <res:binding rdf:nodeID="r9c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Grandchamps-des-Fontaines"/></res:binding>
+      <res:binding rdf:nodeID="r9c1"><res:variable>pc</res:variable><res:value xml:lang="en">44119</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r10">
+      <res:binding rdf:nodeID="r10c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/G%C3%A9tign%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r10c1"><res:variable>pc</res:variable><res:value xml:lang="en">44190</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r11">
+      <res:binding rdf:nodeID="r11c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Gorges,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r11c1"><res:variable>pc</res:variable><res:value xml:lang="en">44190</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r12">
+      <res:binding rdf:nodeID="r12c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Boussay,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r12c1"><res:variable>pc</res:variable><res:value xml:lang="en">44190</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r13">
+      <res:binding rdf:nodeID="r13c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Leg%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r13c1"><res:variable>pc</res:variable><res:value xml:lang="en">44650</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r14">
+      <res:binding rdf:nodeID="r14c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Lumine-de-Clisson"/></res:binding>
+      <res:binding rdf:nodeID="r14c1"><res:variable>pc</res:variable><res:value xml:lang="en">44190</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r15">
+      <res:binding rdf:nodeID="r15c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Barbechat"/></res:binding>
+      <res:binding rdf:nodeID="r15c1"><res:variable>pc</res:variable><res:value xml:lang="en">44450</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r16">
+      <res:binding rdf:nodeID="r16c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Julien-de-Concelles"/></res:binding>
+      <res:binding rdf:nodeID="r16c1"><res:variable>pc</res:variable><res:value xml:lang="en">44450</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r17">
+      <res:binding rdf:nodeID="r17c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Cou%C3%ABron"/></res:binding>
+      <res:binding rdf:nodeID="r17c1"><res:variable>pc</res:variable><res:value xml:lang="en">44220</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r18">
+      <res:binding rdf:nodeID="r18c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-M%C3%AAme-le-Tenu"/></res:binding>
+      <res:binding rdf:nodeID="r18c1"><res:variable>pc</res:variable><res:value xml:lang="en">44270</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r19">
+      <res:binding rdf:nodeID="r19c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Machecoul"/></res:binding>
+      <res:binding rdf:nodeID="r19c1"><res:variable>pc</res:variable><res:value xml:lang="en">44270</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r20">
+      <res:binding rdf:nodeID="r20c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Cordemais"/></res:binding>
+      <res:binding rdf:nodeID="r20c1"><res:variable>pc</res:variable><res:value xml:lang="en">44360</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r21">
+      <res:binding rdf:nodeID="r21c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Vigneux-de-Bretagne"/></res:binding>
+      <res:binding rdf:nodeID="r21c1"><res:variable>pc</res:variable><res:value xml:lang="en">44360</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r22">
+      <res:binding rdf:nodeID="r22c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-%C3%89tienne-de-Montluc"/></res:binding>
+      <res:binding rdf:nodeID="r22c1"><res:variable>pc</res:variable><res:value xml:lang="en">44360</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r23">
+      <res:binding rdf:nodeID="r23c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Chevroli%C3%A8re"/></res:binding>
+      <res:binding rdf:nodeID="r23c1"><res:variable>pc</res:variable><res:value xml:lang="en">44118</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r24">
+      <res:binding rdf:nodeID="r24c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Lumine-de-Coutais"/></res:binding>
+      <res:binding rdf:nodeID="r24c1"><res:variable>pc</res:variable><res:value xml:lang="en">44310</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r25">
+      <res:binding rdf:nodeID="r25c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Pallet"/></res:binding>
+      <res:binding rdf:nodeID="r25c1"><res:variable>pc</res:variable><res:value xml:lang="en">44330</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r26">
+      <res:binding rdf:nodeID="r26c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Mouzillon"/></res:binding>
+      <res:binding rdf:nodeID="r26c1"><res:variable>pc</res:variable><res:value xml:lang="en">44330</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r27">
+      <res:binding rdf:nodeID="r27c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Molf"/></res:binding>
+      <res:binding rdf:nodeID="r27c1"><res:variable>pc</res:variable><res:value xml:lang="en">44350</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r28">
+      <res:binding rdf:nodeID="r28c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Piriac-sur-Mer"/></res:binding>
+      <res:binding rdf:nodeID="r28c1"><res:variable>pc</res:variable><res:value xml:lang="en">44420</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r29">
+      <res:binding rdf:nodeID="r29c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Andr%C3%A9-des-Eaux,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r29c1"><res:variable>pc</res:variable><res:value xml:lang="en">44117</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r30">
+      <res:binding rdf:nodeID="r30c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Lyphard"/></res:binding>
+      <res:binding rdf:nodeID="r30c1"><res:variable>pc</res:variable><res:value xml:lang="en">44410</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r31">
+      <res:binding rdf:nodeID="r31c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Herbignac"/></res:binding>
+      <res:binding rdf:nodeID="r31c1"><res:variable>pc</res:variable><res:value xml:lang="en">44410</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r32">
+      <res:binding rdf:nodeID="r32c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Les_Moutiers-en-Retz"/></res:binding>
+      <res:binding rdf:nodeID="r32c1"><res:variable>pc</res:variable><res:value xml:lang="en">44760</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r33">
+      <res:binding rdf:nodeID="r33c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Chauv%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r33c1"><res:variable>pc</res:variable><res:value xml:lang="en">44320</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r34">
+      <res:binding rdf:nodeID="r34c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Besn%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r34c1"><res:variable>pc</res:variable><res:value xml:lang="en">44160</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r35">
+      <res:binding rdf:nodeID="r35c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Sainte-Anne-sur-Brivet"/></res:binding>
+      <res:binding rdf:nodeID="r35c1"><res:variable>pc</res:variable><res:value xml:lang="en">44160</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r36">
+      <res:binding rdf:nodeID="r36c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Joachim"/></res:binding>
+      <res:binding rdf:nodeID="r36c1"><res:variable>pc</res:variable><res:value xml:lang="en">44720</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r37">
+      <res:binding rdf:nodeID="r37c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Viaud"/></res:binding>
+      <res:binding rdf:nodeID="r37c1"><res:variable>pc</res:variable><res:value xml:lang="en">44320</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r38">
+      <res:binding rdf:nodeID="r38c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/S%C3%A9v%C3%A9rac"/></res:binding>
+      <res:binding rdf:nodeID="r38c1"><res:variable>pc</res:variable><res:value xml:lang="en">44530</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r39">
+      <res:binding rdf:nodeID="r39c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Guenrouet"/></res:binding>
+      <res:binding rdf:nodeID="r39c1"><res:variable>pc</res:variable><res:value xml:lang="en">44530</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r40">
+      <res:binding rdf:nodeID="r40c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Missillac"/></res:binding>
+      <res:binding rdf:nodeID="r40c1"><res:variable>pc</res:variable><res:value xml:lang="en">44780</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r41">
+      <res:binding rdf:nodeID="r41c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Gildas-des-Bois"/></res:binding>
+      <res:binding rdf:nodeID="r41c1"><res:variable>pc</res:variable><res:value xml:lang="en">44530</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r42">
+      <res:binding rdf:nodeID="r42c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Bou%C3%A9e"/></res:binding>
+      <res:binding rdf:nodeID="r42c1"><res:variable>pc</res:variable><res:value xml:lang="en">44260</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r43">
+      <res:binding rdf:nodeID="r43c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Prinquiau"/></res:binding>
+      <res:binding rdf:nodeID="r43c1"><res:variable>pc</res:variable><res:value xml:lang="en">44260</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r44">
+      <res:binding rdf:nodeID="r44c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/M%C3%A9sanger"/></res:binding>
+      <res:binding rdf:nodeID="r44c1"><res:variable>pc</res:variable><res:value xml:lang="en">44522</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r45">
+      <res:binding rdf:nodeID="r45c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Pouill%C3%A9-les-C%C3%B4teaux"/></res:binding>
+      <res:binding rdf:nodeID="r45c1"><res:variable>pc</res:variable><res:value xml:lang="en">44522</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r46">
+      <res:binding rdf:nodeID="r46c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-G%C3%A9r%C3%A9on"/></res:binding>
+      <res:binding rdf:nodeID="r46c1"><res:variable>pc</res:variable><res:value xml:lang="en">44150</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r47">
+      <res:binding rdf:nodeID="r47c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Herblon"/></res:binding>
+      <res:binding rdf:nodeID="r47c1"><res:variable>pc</res:variable><res:value xml:lang="en">44150</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r48">
+      <res:binding rdf:nodeID="r48c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Cellier"/></res:binding>
+      <res:binding rdf:nodeID="r48c1"><res:variable>pc</res:variable><res:value xml:lang="en">44850</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r49">
+      <res:binding rdf:nodeID="r49c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Couff%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r49c1"><res:variable>pc</res:variable><res:value xml:lang="en">44521</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r50">
+      <res:binding rdf:nodeID="r50c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Pin,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r50c1"><res:variable>pc</res:variable><res:value xml:lang="en">44540</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r51">
+      <res:binding rdf:nodeID="r51c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Maumusson,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r51c1"><res:variable>pc</res:variable><res:value xml:lang="en">44540</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r52">
+      <res:binding rdf:nodeID="r52c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ruffign%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r52c1"><res:variable>pc</res:variable><res:value xml:lang="en">44660</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r53">
+      <res:binding rdf:nodeID="r53c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Fresne-sur-Loire"/></res:binding>
+      <res:binding rdf:nodeID="r53c1"><res:variable>pc</res:variable><res:value xml:lang="en">49123</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r54">
+      <res:binding rdf:nodeID="r54c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Montrelais"/></res:binding>
+      <res:binding rdf:nodeID="r54c1"><res:variable>pc</res:variable><res:value xml:lang="en">44370</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r55">
+      <res:binding rdf:nodeID="r55c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Rouxi%C3%A8re"/></res:binding>
+      <res:binding rdf:nodeID="r55c1"><res:variable>pc</res:variable><res:value xml:lang="en">44370</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r56">
+      <res:binding rdf:nodeID="r56c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Aubin-des-Ch%C3%A2teaux"/></res:binding>
+      <res:binding rdf:nodeID="r56c1"><res:variable>pc</res:variable><res:value xml:lang="en">44110</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r57">
+      <res:binding rdf:nodeID="r57c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Mass%C3%A9rac"/></res:binding>
+      <res:binding rdf:nodeID="r57c1"><res:variable>pc</res:variable><res:value xml:lang="en">44290</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r58">
+      <res:binding rdf:nodeID="r58c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Notre-Dame-des-Landes"/></res:binding>
+      <res:binding rdf:nodeID="r58c1"><res:variable>pc</res:variable><res:value xml:lang="en">44130</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r59">
+      <res:binding rdf:nodeID="r59c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Conquereuil"/></res:binding>
+      <res:binding rdf:nodeID="r59c1"><res:variable>pc</res:variable><res:value xml:lang="en">44290</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r60">
+      <res:binding rdf:nodeID="r60c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Louisfert"/></res:binding>
+      <res:binding rdf:nodeID="r60c1"><res:variable>pc</res:variable><res:value xml:lang="en">44110</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r61">
+      <res:binding rdf:nodeID="r61c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Julien-de-Vouvantes"/></res:binding>
+      <res:binding rdf:nodeID="r61c1"><res:variable>pc</res:variable><res:value xml:lang="en">44670</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r62">
+      <res:binding rdf:nodeID="r62c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Iss%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r62c1"><res:variable>pc</res:variable><res:value xml:lang="en">44520</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r63">
+      <res:binding rdf:nodeID="r63c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Moisdon-la-Rivi%C3%A8re"/></res:binding>
+      <res:binding rdf:nodeID="r63c1"><res:variable>pc</res:variable><res:value xml:lang="en">44520</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r64">
+      <res:binding rdf:nodeID="r64c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/H%C3%A9ric"/></res:binding>
+      <res:binding rdf:nodeID="r64c1"><res:variable>pc</res:variable><res:value xml:lang="en">44810</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r65">
+      <res:binding rdf:nodeID="r65c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Petit-Mars"/></res:binding>
+      <res:binding rdf:nodeID="r65c1"><res:variable>pc</res:variable><res:value xml:lang="en">44390</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r66">
+      <res:binding rdf:nodeID="r66c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Casson,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r66c1"><res:variable>pc</res:variable><res:value xml:lang="en">44390</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r67">
+      <res:binding rdf:nodeID="r67c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Chevallerais"/></res:binding>
+      <res:binding rdf:nodeID="r67c1"><res:variable>pc</res:variable><res:value xml:lang="en">44810</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r68">
+      <res:binding rdf:nodeID="r68c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saffr%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r68c1"><res:variable>pc</res:variable><res:value xml:lang="en">44390</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r69">
+      <res:binding rdf:nodeID="r69c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Treffieux"/></res:binding>
+      <res:binding rdf:nodeID="r69c1"><res:variable>pc</res:variable><res:value xml:lang="en">44170</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r70">
+      <res:binding rdf:nodeID="r70c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ferc%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r70c1"><res:variable>pc</res:variable><res:value xml:lang="en">44660</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r71">
+      <res:binding rdf:nodeID="r71c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Noyal-sur-Brutz"/></res:binding>
+      <res:binding rdf:nodeID="r71c1"><res:variable>pc</res:variable><res:value xml:lang="en">44110</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r72">
+      <res:binding rdf:nodeID="r72c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Soulvache"/></res:binding>
+      <res:binding rdf:nodeID="r72c1"><res:variable>pc</res:variable><res:value xml:lang="en">44660</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r73">
+      <res:binding rdf:nodeID="r73c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Roug%C3%A9"/></res:binding>
+      <res:binding rdf:nodeID="r73c1"><res:variable>pc</res:variable><res:value xml:lang="en">44660</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r74">
+      <res:binding rdf:nodeID="r74c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Indre,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r74c1"><res:variable>pc</res:variable><res:value xml:lang="en">44610 (Basse-Indre and Haut-indre), 44620 (Indret)</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r75">
+      <res:binding rdf:nodeID="r75c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Orvault"/></res:binding>
+      <res:binding rdf:nodeID="r75c1"><res:variable>pc</res:variable><res:value xml:lang="en">44700</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r76">
+      <res:binding rdf:nodeID="r76c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ancenis"/></res:binding>
+      <res:binding rdf:nodeID="r76c1"><res:variable>pc</res:variable><res:value xml:lang="en">44150</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r77">
+      <res:binding rdf:nodeID="r77c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ch%C3%A2teaubriant"/></res:binding>
+      <res:binding rdf:nodeID="r77c1"><res:variable>pc</res:variable><res:value xml:lang="en">44110</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r78">
+      <res:binding rdf:nodeID="r78c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Clisson"/></res:binding>
+      <res:binding rdf:nodeID="r78c1"><res:variable>pc</res:variable><res:value xml:lang="en">44190</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r79">
+      <res:binding rdf:nodeID="r79c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Aigrefeuille-sur-Maine"/></res:binding>
+      <res:binding rdf:nodeID="r79c1"><res:variable>pc</res:variable><res:value xml:lang="en">44140</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r80">
+      <res:binding rdf:nodeID="r80c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Geneston"/></res:binding>
+      <res:binding rdf:nodeID="r80c1"><res:variable>pc</res:variable><res:value xml:lang="en">44140</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r81">
+      <res:binding rdf:nodeID="r81c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Montbert"/></res:binding>
+      <res:binding rdf:nodeID="r81c1"><res:variable>pc</res:variable><res:value xml:lang="en">44140</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r82">
+      <res:binding rdf:nodeID="r82c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Vieillevigne,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r82c1"><res:variable>pc</res:variable><res:value xml:lang="en">44116</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r83">
+      <res:binding rdf:nodeID="r83c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Aignan-Grandlieu"/></res:binding>
+      <res:binding rdf:nodeID="r83c1"><res:variable>pc</res:variable><res:value xml:lang="en">44860</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r84">
+      <res:binding rdf:nodeID="r84c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-L%C3%A9ger-les-Vignes"/></res:binding>
+      <res:binding rdf:nodeID="r84c1"><res:variable>pc</res:variable><res:value xml:lang="en">44710</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r85">
+      <res:binding rdf:nodeID="r85c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Suc%C3%A9-sur-Erdre"/></res:binding>
+      <res:binding rdf:nodeID="r85c1"><res:variable>pc</res:variable><res:value xml:lang="en">44240</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r86">
+      <res:binding rdf:nodeID="r86c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Treilli%C3%A8res"/></res:binding>
+      <res:binding rdf:nodeID="r86c1"><res:variable>pc</res:variable><res:value xml:lang="en">44119</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r87">
+      <res:binding rdf:nodeID="r87c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Touvois"/></res:binding>
+      <res:binding rdf:nodeID="r87c1"><res:variable>pc</res:variable><res:value xml:lang="en">44650</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r88">
+      <res:binding rdf:nodeID="r88c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Remaudi%C3%A8re"/></res:binding>
+      <res:binding rdf:nodeID="r88c1"><res:variable>pc</res:variable><res:value xml:lang="en">44430</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r89">
+      <res:binding rdf:nodeID="r89c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Le_Loroux-Bottereau"/></res:binding>
+      <res:binding rdf:nodeID="r89c1"><res:variable>pc</res:variable><res:value xml:lang="en">44430</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r90">
+      <res:binding rdf:nodeID="r90c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Sautron"/></res:binding>
+      <res:binding rdf:nodeID="r90c1"><res:variable>pc</res:variable><res:value xml:lang="en">44880</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r91">
+      <res:binding rdf:nodeID="r91c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Marne"/></res:binding>
+      <res:binding rdf:nodeID="r91c1"><res:variable>pc</res:variable><res:value xml:lang="en">44270</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r92">
+      <res:binding rdf:nodeID="r92c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/La_Regrippi%C3%A8re"/></res:binding>
+      <res:binding rdf:nodeID="r92c1"><res:variable>pc</res:variable><res:value xml:lang="en">44330</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r93">
+      <res:binding rdf:nodeID="r93c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Jean-de-Boiseau"/></res:binding>
+      <res:binding rdf:nodeID="r93c1"><res:variable>pc</res:variable><res:value xml:lang="en">44640</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r94">
+      <res:binding rdf:nodeID="r94c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Vue,_Loire-Atlantique"/></res:binding>
+      <res:binding rdf:nodeID="r94c1"><res:variable>pc</res:variable><res:value xml:lang="en">44640</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r95">
+      <res:binding rdf:nodeID="r95c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Haute-Goulaine"/></res:binding>
+      <res:binding rdf:nodeID="r95c1"><res:variable>pc</res:variable><res:value xml:lang="en">44115</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r96">
+      <res:binding rdf:nodeID="r96c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Saint-Fiacre-sur-Maine"/></res:binding>
+      <res:binding rdf:nodeID="r96c1"><res:variable>pc</res:variable><res:value xml:lang="en">44690</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r97">
+      <res:binding rdf:nodeID="r97c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Mesquer"/></res:binding>
+      <res:binding rdf:nodeID="r97c1"><res:variable>pc</res:variable><res:value xml:lang="en">44420</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r98">
+      <res:binding rdf:nodeID="r98c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Ass%C3%A9rac"/></res:binding>
+      <res:binding rdf:nodeID="r98c1"><res:variable>pc</res:variable><res:value xml:lang="en">44410</res:value></res:binding>
+    </res:solution>
+    <res:solution rdf:nodeID="r99">
+      <res:binding rdf:nodeID="r99c0"><res:variable>ville</res:variable><res:value rdf:resource="http://dbpedia.org/resource/Trignac"/></res:binding>
+      <res:binding rdf:nodeID="r99c1"><res:variable>pc</res:variable><res:value xml:lang="en">44570</res:value></res:binding>
+    </res:solution>
+  </rdf:Description>
+</rdf:RDF>

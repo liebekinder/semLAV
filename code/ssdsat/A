@@ -1,0 +1,33 @@
+
+
+
+
+
+
+
+
+
+[('t', X, C, 5, 0), ('t', X, paris, 7, 0), ('t', X, X, 1, 1), ('t', X, X, 2, 1), ('t', T, ua, 3, 0), ('t', paris, X, 8, 0), ('t', T, T, 1, 0), ('t', T, D, 5, 0), ('t', X, X, 6, 1), ('t', X, Y, 1, 1), ('t', T, ua, 7, 0), ('t', paris, X, 7, 1), ('t', paris, A, 5, 0), ('t', X, C, 5, 1), ('t', X, X, 1, 0), ('t', paris, Y, 3, 0), ('t', paris, X, 8, 1), ('t', X, la, 8, 1), ('t', paris, X, 7, 0), ('t', paris, D, 5, 1), ('t', paris, A, 5, 1), ('t', paris, Y, 3, 1), ('t', T, T, 4, 0), ('t', paris, Y, 4, 1), ('t', X, la, 8, 0), ('t', Y, D, 5, 1), ('t', paris, D, 5, 0), ('t', X, X, 4, 0), ('t', T, aa, 6, 0), ('t', T, T, 4, 1), ('t', paris, Y, 4, 0), ('t', T, aa, 2, 0), ('t', V, D, 5, 1), ('t', X, X, 3, 1), ('t', paris, X, 1, 1), ('t', X, A, 5, 0), ('t', Y, D, 5, 0), ('t', X, D, 5, 1), ('t', X, X, 4, 1), ('t', T, aa, 6, 1), ('t', T, aa, 2, 1), ('t', V, D, 5, 0), ('t', X, X, 3, 0), ('t', T, ua, 8, 0), ('t', paris, Y, 1, 0), ('t', X, A, 5, 1), ('t', paris, B, 5, 1), ('t', X, D, 5, 0), ('t', paris, X, 1, 0), ('t', paris, C, 5, 0), ('t', paris, Y, 2, 1), ('t', paris, paris, 6, 0), ('t', T, ua, 8, 1), ('t', paris, Y, 1, 1), ('t', paris, B, 5, 0), ('t', paris, C, 5, 1), ('t', X, paris, 7, 1), ('t', X, X, 2, 0), ('t', T, ua, 3, 1), ('t', T, T, 1, 1), ('t', T, D, 5, 1), ('t', X, X, 6, 0), ('t', paris, Y, 2, 0), ('t', X, Y, 1, 0), ('t', T, ua, 7, 1), ('t', paris, paris, 6, 1)]
+
+
+
+
+
+
+[('t', paris, C, 5), 
+ ('t', T, T, 1), 
+ ('t', T, D, 5), 
+ ('t', X, D, 5), 
+ ('t', X, X, 3), 
+ ('t', X, Y, 1), 
+ ('t', T, aa, 6), 
+ ('t', X, C, 5), 
+ ('t', paris, B, 5), 
+ ('t', paris, D, 5), 
+ ('t', paris, paris, 6), 
+ ('t', paris, Y, 2), 
+ ('t', paris, Y, 1), 
+ ('t', T, aa, 2), 
+ ('t', T, T, 4), ('t', X, la, 8), ('t', T, ua, 7), ('t', paris, X, 7), ('t', X, X, 1), ('t', X, X, 6), ('t', Y, D, 5), ('t', V, D, 5), ('t', T, ua, 3), ('t', X, A, 5), ('t', X, X, 2), ('t', paris, X, 1), ('t', T, ua, 8), ('t', X, X, 4), ('t', X, paris, 7), ('t', paris, A, 5), ('t', paris, Y, 4), ('t', paris, X, 8), ('t', paris, Y, 3)]
+
+

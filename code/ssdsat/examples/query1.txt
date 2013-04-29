@@ -1,0 +1,1 @@
+q(X,Z) :- trip(X, Y),trip(Y,Z)

@@ -1,0 +1,1 @@
+query6(Hotel, Name, PC) :- hasname(Hotel, Name), haspostalcode(Hotel, PC)

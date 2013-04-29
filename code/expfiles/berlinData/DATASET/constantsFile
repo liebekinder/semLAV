@@ -1,0 +1,13 @@
+hasname	ex:hasName
+haswebsite	ex:hasWebSite
+hasaddress	ex:hasAddress
+haspostalcode	ex:hasPostalCode
+hasmail	ex:hasMail
+hasnameo	onto:hasName
+haswebsiteo	onto:hasWebSite
+hasaddresso	onto:hasAddress
+haspostalcodeo	onto:hasPostalCode
+hasmailo	onto:hasMail
+hastown	onto:hasTown
+postalcode db:postalCode
+townname db:townName

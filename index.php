@@ -33,7 +33,7 @@
     		<textarea id="queryTextArea" class="queryField" readonly></textarea>
     	</div>
     	<div id="queryResult">
-    		<div id="calculate"></div>
+    		<div id="calculate"><button> Evaluation de la reqete!</button></div>
     		<div id="result"></div>
     	</div>
     </div>

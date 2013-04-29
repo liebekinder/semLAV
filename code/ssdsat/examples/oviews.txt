@@ -1,0 +1,2 @@
+g(X) :- graduate(X)
+u(X) :- undergrad(X)

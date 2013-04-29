@@ -1,0 +1,500 @@
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I), Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I), Z=X_{choco}, Y=X_{mainturkey}, X=X_{salad}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I), Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),mainturkey(Y), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taabled(Y,I), Y=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taables(Y,I), Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),mainturkey(Y), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taabled(Y,I), Y=X_{taabled}, X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taables(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taablem(Y,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),mainturkey(Y), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taabled(Y,I), Y=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taables(Y,I), Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taablem(Y,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),mainturkey(Y), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taabled(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taables(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taablem(Y,I), Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),mainturkey(Y), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taabled(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taables(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taablem(Y,I), Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),mainturkey(Y), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Y),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y),taabled(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Y),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Y),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I), Y=X_{taabled}, X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taabled(Y,I), Y=X_{taabled}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I),mainturkey(Z), Z=X_{mainturkey}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I),taables(Z,I), Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Y,I),taablem(Z,I), Z=X_{choco}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I),taabled(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I),taables(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Y,I),taablem(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I),mainturkey(Z), Z=X_{mainturkey}, Z=X_{choco}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, X=X_{salad}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I),taables(Z,I), Z=X_{choco}, Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Y,I),taablem(Z,I), Z=X_{choco}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Y=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Y,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I),taabled(Z,I), Z=X_{taabled}, Y=X_{mainturkey}, Y=X_{taables}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taablem(Y,I), Y=X_{taablem}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taablem}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I),taables(Z,I), I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I),taables(Z,I), X=X_{fishstarter}, I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Y,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I),taables(Z,I), I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0),mainturkey(Y), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Y),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Y),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Y=X_{taabled}, X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Y=X_{taabled}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I),taabled(Z,I), Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taabled}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taabled}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taabled(Z,I), Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{mainturkey}, X=X_{salad}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0),taables(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0),taablem(Y,I), Y=X_{taablem}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taablem}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I),taables(Z,I), I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taables(Z,I), X=X_{fishstarter}, I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taables(Z,I), I=I_{taables}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),mainturkey(Z), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taables(Z,I), X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taablem(Z,I), X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taabled(Z,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taables(Z,I), X=X_{fishstarter}, X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taablem(Z,I), X=X_{fishstarter}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),mainturkey(Z), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taables(Z,I), X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taablem(Z,I), X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, X=X_{salad}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),mainturkey(Z), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taabled(Z,I), Y=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taables(Z,I), Y=X_{taabled}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taablem(Z,I), Y=X_{taabled}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),mainturkey(Z), Y=X_{taabled}, X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taabled(Z,I), Y=X_{taabled}, X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taables(Z,I), Y=X_{taabled}, X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taablem(Z,I), Y=X_{taabled}, X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taabled(Z,I), Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{mainturkey}, X=X_{salad}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Z,I), Z=X_{choco}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Z,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I), Y=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I), Y=X_{taabled}, X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I), Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Y=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Y=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Y,I), Y=X_{mainturkey}, Z=X_{taables}, Z=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Y=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),choco(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0), Y=X_{mainturkey}, Z=X_{taables}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,I),mainturkey(Y),taabled(Z,_0), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(Z,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taabled(Z,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taabled(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taables(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Y,I),taablem(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),mainturkey(X), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taabled(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taables(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Y,I),taablem(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taabled(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taables(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Y,I),taablem(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taabled}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),mainturkey(X), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taabled(X,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taables(X,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,I),taablem(X,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),mainturkey(X), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taabled(X,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taables(X,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,I),taablem(X,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),mainturkey(X), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taabled(X,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taables(X,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,I),taablem(X,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taabled(Z,I), Y=X_{mainturkey}, X=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taabled(Z,I), X=X_{fishstarter}, Z=X_{choco}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taabled(Z,I), Y=X_{mainturkey}, X=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),mainturkey(X), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),mainturkey(X),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taabled(Y,I), Y=X_{taabled}, X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),mainturkey(X),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),mainturkey(X),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}, X=X_{mainturkey}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Z), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taables(Z,I), X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taablem(Z,I), X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taabled(Z,I), X=X_{fishstarter}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taables(Z,I), X=X_{fishstarter}, X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taablem(Z,I), X=X_{fishstarter}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Z), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taabled(Z,I), X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taables(Z,I), X=X_{taabled}, Z=X_{taables}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taablem(Z,I), X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, X=X_{salad}, Z=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taabled(X,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{taabled}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taabled(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{taabled}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Y), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taabled(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taables(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taabled(X,I),taablem(Y,I), Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taabled(X,I),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),mainturkey(Y), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taabled(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taables(Y,I), Z=X_{mainturkey}, X=X_{taabled}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=I_{taabled}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taabled(X,I),taablem(Y,I), Z=X_{mainturkey}, X=X_{taabled}, I=I_{taablem}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taabled(Z,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taables(X,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taables(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taables(X,I),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taablem}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taables(X,I),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taablem}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taables(X,I),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taablem}, X=X_{salad}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taables(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taabled(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taables(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),choco(Z),taablem(X,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),choco(Z),taablem(X,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),choco(Z),taablem(X,I),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taabled(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taables(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, Y=X_{taables}, X=X_{taablem}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),choco(Z),taablem(X,I),taablem(Y,I), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taabled(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=I_{taabled}, I=turkey_{mainturkey}, Z=X_{choco}, Y=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, Y=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, Z=X_{choco}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),choco(Z),taablem(X,I),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, X=X_{taablem}, I=turkey_{mainturkey}, Y=X_{taablem}, Z=X_{choco}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taabled(Z,I), Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),mainturkey(Z), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taabled(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taables(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taablem(Z,I), X=X_{fishstarter}, Y=X_{mainturkey}, I=I_{taablem}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),mainturkey(Z), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taabled(Z,I), Y=X_{mainturkey}, X=X_{salad}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taables(Z,I), Y=X_{mainturkey}, Z=X_{taables}, X=X_{salad}, I=turkey_{mainturkey}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),taablem(Z,I), Y=X_{mainturkey}, I=I_{taablem}, X=X_{salad}, Z=X_{taablem}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- salad(X),mainturkey(Y),taabled(Z,_0),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, X=X_{salad}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Z,I),mainturkey(Y),taabled(Z,_0),mainturkey(X), Y=X_{mainturkey}, Z=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(Y,I),mainturkey(Y),taabled(Z,_0),mainturkey(X), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),mainturkey(Y), Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taabled(Y,I), Y=X_{taabled}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taabled}, I=turkey_{mainturkey}, X=X_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taables(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, Y=X_{taables}, I=turkey_{mainturkey}, X=X_{taables}, I=I_{taables}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- taables(X,_0),mainturkey(Y),taabled(Z,_1),mainturkey(X),taablem(Y,I), Z=X_{mainturkey}, Y=X_{mainturkey}, I=I_{taablem}, I=turkey_{mainturkey}, X=X_{taables}, Y=X_{taablem}, X=X_{mainturkey}, Z=X_{taabled}
+q(X,Y,Z,I) :- fishstarter(X),mainturkey(Y),taabled(Z,_0),mainturkey(X),mainturkey(Y), X=X_{fishstarter}, Z=X_{mainturkey}, Y=X_{mainturkey}, I=turkey_{mainturkey}, X=X_{mainturkey}, Z=X_{taabled}

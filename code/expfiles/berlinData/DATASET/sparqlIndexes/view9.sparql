@@ -1,0 +1,11 @@
+PREFIX dbpedia-owl:<http://dbpedia.org/ontology/>
+PREFIX dbpedia:<http://dbpedia.org/resource/>
+PREFIX dbpprop:<http://dbpedia.org/property/>
+
+SELECT ?nomVille ?PC 
+WHERE
+{
+?ville dbpedia-owl:postalCode ?PC .
+?ville dbpprop:name ?nomVille .
+?ville dbpedia-owl:department dbpedia:Loire-Atlantique .
+}

@@ -1,0 +1,6 @@
+@tipo0 <= @tipo2
+@tipo1 <= @tipo3
+@tipo4 <= @tipo0
+@tipo5 <= @tipo1
+a : @tipo0
+b : @tipo1

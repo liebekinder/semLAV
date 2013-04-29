@@ -1,0 +1,11 @@
+cQueryPath=GUNPATH/code/expfiles/berlinData/DATASET/conjunctiveQueries/query3
+mappingsPath=GUNPATH/code/expfiles/berlinData/DATASET/views/mappingsBerlin
+sQueryPath=GUNPATH/code/expfiles/berlinData/DATASET/sparqlQueries/query3.sparql
+path=GUNPATH/code/expfiles/
+queryResults=berlinOutput/DATASET/views/outputRelViewsquery3
+groundTruth=berlinData/DATASET/answers/query3
+n3Dir=berlinData/DATASET/n3dir/
+sparqlDir=berlinData/DATASET/views/viewsSparql/
+catalogpath=GUNPATH/code/expfiles/catalog
+constants=GUNPATH/code/expfiles/berlinData/DATASET/constantsFile
+contactsources=true
