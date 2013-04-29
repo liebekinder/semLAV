@@ -36,18 +36,44 @@ function getQueryContent(val){
 	var parametres = "query=" + codeVariable(val) + "&anticache=" + temps;
 		
 	//configuration de la requete en GET ert synchrone
-	objetXHR.open("get","script/getQueryContent.php?" + parametres,true);
+	objetXHR.open("get","scripts/getQueryContent.php?" + parametres,true);
 	
 	//configuration de la fonction du traitement asynchrone
 	objetXHR.onreadystatechange = actualiserPage;
 	
 	//chargement du loader avant que la requete soit executee et on cache le tableau
-	gebi("querySelector").style.visibility = "hidden";
+//	gebi("querySelector").style.visibility = "hidden";
+	$(".sendButton").button("option", "disabled", true);
 	
 	//envoie de la requete
 	objetXHR.send(null);
 	
 	/* ------ FIN MOTEUR AJAX -------*/
+}
+
+function actualiserPage(){
+	if(objetXHR.readyState == 4){
+		if(objetXHR.status == 200){
+			
+			//recuperation des resultat dans un tableau
+			var nouveauResultat = objetXHR.responseText;
+			
+			//modification de la page
+			gebi("queryTextArea").innerHTML = nouveauResultat;
+			
+			//on cache le loader et on debloque le bouton et on affiche le resultat
+//			gebi("querySelector").style.visibility = "visible";
+		}
+		else{
+			gebi("querySelector").innerHTML = "erreur serveur: "+ objetXHR.status +" - "+ objetXHR.statusText;
+//			gebi("querySelector").style.visibility = "visible";
+			
+			//annule la requete en cours
+			objetXHR.abort();
+			objetXHR = null;
+		}
+		$(".sendButton").button("option", "disabled", false);
+	}
 }
 
 function supprimerContenu(element){
