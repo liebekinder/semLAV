@@ -1,0 +1,117 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 70px;
+  text-align: center;
+}
+
+.sendButton {
+  display: block;
+  font-size: 20pt;
+  position:relative;
+  width:173px;
+  left:5px;
+  background:white !important;
+  text-align:center;
+}
+.selectedButton {
+  background: lightBlue !important;
+}
+.queryField{	
+  display: block;
+  font-size: 20pt;
+  position:relative;
+  width:480px;
+  left:5px;
+  height:488px;
+  top:5px;
+  resize:none;
+  font-family : Courier, MS Courier New, Prestige, monospace;
+}
+.executeButton{
+  display: block;
+  font-size: 20pt;
+  position:relative;
+  width:290px;
+  height:40px;
+  left:5px;
+  background: #14D100 !important;
+  text-align:center;
+}
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}
+
+#principal{
+	position:relative;
+	margin:auto;
+	width:1020px;
+	height:520px;
+	top:10px;
+	border:1px solid black;
+	box-shadow: 4px 4px 10px #aaa;
+}
+#querySelector{
+	position:absolute;
+	width:200px;
+	height:508px;
+	top:5px;
+	left:5px;
+	border:1px solid lightGrey;
+	background:#eee;
+	overflow-y: scroll;
+}
+#queryDisplay{
+	position:absolute;
+	width:500px;
+	height:508px;
+	top:5px;
+	left:210px;
+	border:1px solid lightGrey;
+	background:#eee;
+}
+#queryResult{
+	
+	position:absolute;
+	width:300px;
+	height:508px;
+	top:5px;
+	left:715px;
+	border:1px solid lightGrey;
+	background:#eee;
+}
+#calculate{
+	
+	position:absolute;
+	width:300px;
+	height:40px;
+	top:5px;
+	left:5px;
+}
+#result{
+	
+	position:absolute;
+	width:300px;
+	height:478px;
+	top:50px;
+	left:5px;
+}
