@@ -31,9 +31,9 @@
     	<div id="queryDisplay">
     		<textarea id="queryTextArea" class="queryField" readonly></textarea>
     	</div>
-    	<div id="queryResult">
+    	<div id="queryResult"><img id="imageWait" src="media/wait.gif" alt="wait"/>
     		<div id="calculate"><button class="executeButton" onclick="getQueryAnswers();"> Evaluation de la requete!</button></div>
-    		<div id="result"><img id="imageWait" src="media/wait.gif" alt="wait"/></div>
+    		<div id="result"></div>
     	</div>
     </div>
     
