@@ -42,4 +42,6 @@
     
 </body>
 
+<div id="laDiv"></div>
+
 </html>

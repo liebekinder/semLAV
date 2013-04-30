@@ -1,3 +1,54 @@
+function displayView(val){
+	// Moteur ajax concernant la partie gestionnaire de la page: recherche du dossier à afficher, genération du html et renvoie au client
+	//contient aussi les diverses modification qu'on peut apporter aux fichiers: affichage, compression, suppression...
+	/* ------ MOTEUR AJAX -----------*/
+	
+	//creation d'un objet XHR
+	objetXHR3 = null;
+	objetXHR3 = creationXHR();
+	
+	//tromperie pour le cache
+	var temps = new Date().getTime();
+	var parametres = "query=" + codeVariable(val) + "&anticache=" + temps;
+		
+	//configuration de la requete en GET ert synchrone
+	objetXHR3.open("get","scripts/getViewContent.php?" + parametres,true);
+	
+	//configuration de la fonction du traitement asynchrone
+	objetXHR3.onreadystatechange = actualiserPage3;
+	
+	//chargement du loader avant que la requete soit executee et on cache le tableau
+	
+	//envoie de la requete
+	objetXHR3.send(null);
+	
+	/* ------ FIN MOTEUR AJAX -------*/
+}
+
+function actualiserPage3(){
+	if(objetXHR3.readyState == 4){
+		if(objetXHR3.status == 200){
+			
+			//recuperation des resultat dans un tableau
+			var nouveauResultat = objetXHR3.responseText;
+			
+			//modification de la page
+			gebi("laDiv").innerHTML = nouveauResultat;
+			
+			//on cache le loader et on debloque le bouton et on affiche le resultat
+
+		}
+		else{
+			gebi("laDiv").innerHTML = "erreur serveur: "+ objetXHR3.status +" - "+ objetXHR3.statusText;
+			
+			//annule la requete en cours
+			objetXHR3.abort();
+			objetXHR3 = null;
+		}
+	}
+}
+
+
 function creationXHR(){
 	/* ------- creation de l'objet XHR en fonction du navigateur ----*/
 	var resultat=null;
@@ -143,6 +194,7 @@ function actualiserPage2(){
 
 	gebi("imageWait").style.visibility = "hidden";
 }
+
 
 //-------------------------------------------------------------------//
 //		fonctions additionnelles									//

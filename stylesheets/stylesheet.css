@@ -13,7 +13,10 @@ h1 {
 textarea{
 	
 }
-
+#laTable{
+	width:100%;
+	
+}
 #imageWait{
 	position:absolute;
 	margin-left:43%;
@@ -126,4 +129,5 @@ textarea{
 	height:478px;
 	top:50px;
 	left:5px;
+	overflow-y: auto;
 }

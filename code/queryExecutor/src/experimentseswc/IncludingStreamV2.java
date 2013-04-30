@@ -178,7 +178,7 @@ public class IncludingStreamV2 extends Thread {
                     }
                 }
             }
-            System.out.println("finish view inclusion!");
+//            System.out.println("finish view inclusion!");
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
