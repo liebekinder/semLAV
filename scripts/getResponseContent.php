@@ -13,7 +13,7 @@
 	if(isset($_REQUEST['query'])){
 		if($_REQUEST['query']){
 			include_once 'functions.php';
-			echo getViewContent($_REQUEST['query']);
+			echo getResponseContent($_REQUEST['query']);
 		}
 	else{
 		echo "Failed to execute Ajax instruction. GET request is empty";

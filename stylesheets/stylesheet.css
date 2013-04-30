@@ -1,6 +1,8 @@
 /** Add css rules here for your application. */
 
-
+.url{
+	font-size:9pt;
+}
 /** Example rules used by the template application (remove for your app) */
 h1 {
   font-size: 2em;
@@ -42,16 +44,16 @@ textarea{
   font-size: 12pt;
   position:relative;
   margin:5px;
-  width:480px;
+  width:440px;
   height:488px;
   resize:none;
   font-family : Courier, MS Courier New, Prestige, monospace;
 }
 .executeButton{
   display: block;
-  font-size: 16pt;
+  font-size: 20pt;
   position:relative;
-  width:290px;
+  width:320px;
   height:40px;
   left:5px;
   background: #88d142 !important;
@@ -97,7 +99,7 @@ textarea{
 }
 #queryDisplay{
 	position:absolute;
-	width:500px;
+	width:460px;
 	height:508px;
 	top:5px;
 	left:210px;
@@ -107,17 +109,17 @@ textarea{
 #queryResult{
 	
 	position:absolute;
-	width:300px;
+	width:340px;
 	height:508px;
 	top:5px;
-	left:715px;
+	left:675px;
 	border:1px solid lightGrey;
 	background:#eee;
 }
 #calculate{
 	
 	position:absolute;
-	width:300px;
+	width:340px;
 	height:40px;
 	top:5px;
 	left:5px;
@@ -125,7 +127,7 @@ textarea{
 #result{
 	
 	position:absolute;
-	width:300px;
+	width:340px;
 	height:478px;
 	top:50px;
 	left:5px;

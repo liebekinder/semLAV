@@ -4,7 +4,7 @@
 	<meta charset="UTF-8"/>
 	<title>semLAV Query Handler</title>
 	<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css"/>
-	<link type="text/css" rel="stylesheet" href="stylesheets/ui-lightness/jquery-ui-1.10.2.custom.css"/>
+	<link type="text/css" rel="stylesheet" href="stylesheets/custom-theme/jquery-ui-1.10.2.custom.css"/>
 	<script type="text/javascript" src="scripts/JQuery/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="scripts/JQuery/jquery-ui-1.10.2.custom.js"></script>
 	<script type="text/javascript" src="scripts/scripts.js"></script>
@@ -22,6 +22,16 @@
 				autoOpen:false,
 				width: 480,
 				height: 320,
+				resizable: false
+			});
+		});
+
+		$(function () {
+			$("#laDiv2").dialog({
+				modal:true,
+				autoOpen:false,
+				width: 1024,
+				height: 480,
 				resizable: false
 			});
 		});
@@ -48,21 +58,12 @@
     	</div>
     	<div id="queryResult">
     		<img id="imageWait" src="media/wait.gif" alt="wait"/>
-    		<div id="calculate"><button id="buttonExec" disabled class="executeButton" onclick="getQueryAnswers();"> Evaluation de la requete!</button></div>
+    		<div id="calculate"><button id="buttonExec" disabled class="executeButton" onclick="getQueryAnswers();"> Evaluate query!</button></div>
     		<div id="result"></div>
     	</div>
     </div>
     
-    <div id="laDiv">
-<!-- 		<textarea readonly>PREFIX ex:&lt;http://example.org/hotel/&gt; -->
-<!-- 		SELECT * WHERE { -->
-<!-- 		    ?Hotel ex:hasName ?Name . -->
-<!-- 		    ?Hotel ex:hasPostalCode ?PC . -->
-<!-- 		    ?Hotel ex:hasAddress ?Address . -->
-<!-- 		} -->
-		
-<!-- 		</textarea> -->
-	</div>
+    <div id="laDiv"></div><div id="laDiv2"></div>
     
 </body>
 

@@ -53,6 +53,61 @@ function actualiserPage3(){
 	}
 }
 
+function displayResponse(val){
+	// Moteur ajax concernant la partie gestionnaire de la page: recherche du dossier à afficher, genération du html et renvoie au client
+	//contient aussi les diverses modification qu'on peut apporter aux fichiers: affichage, compression, suppression...
+	/* ------ MOTEUR AJAX -----------*/
+	
+//	$("#laDiv").attr("title", val);
+	gebi("ui-id-2").innerHTML = "Query"+val;
+//	gebi("laDiv").title = val;
+	//creation d'un objet XHR
+	objetXHR4 = null;
+	objetXHR4 = creationXHR();
+	
+	//tromperie pour le cache
+	var temps = new Date().getTime();
+	var parametres = "query=" + codeVariable(val) + "&anticache=" + temps;
+		
+	//configuration de la requete en GET ert synchrone
+	objetXHR4.open("get","scripts/getResponseContent.php?" + parametres,true);
+	
+	//configuration de la fonction du traitement asynchrone
+	objetXHR4.onreadystatechange = actualiserPage4;
+	
+	//chargement du loader avant que la requete soit executee et on cache le tableau
+	
+	//envoie de la requete
+	objetXHR4.send(null);
+	
+	/* ------ FIN MOTEUR AJAX -------*/
+}
+
+function actualiserPage4(){
+	if(objetXHR4.readyState == 4){
+		if(objetXHR4.status == 200){
+			
+			//recuperation des resultat dans un tableau
+			var nouveauResultat = objetXHR4.responseText;
+			
+			//modification de la page
+			gebi("laDiv2").innerHTML = nouveauResultat;
+			
+			
+			//on cache le loader et on debloque le bouton et on affiche le resultat
+			
+			$("#laDiv2").dialog("open");
+		}
+		else{
+			gebi("laDiv2").innerHTML = "erreur serveur: "+ objetXHR4.status +" - "+ objetXHR4.statusText;
+			$("#laDiv2").dialog("open");
+			//annule la requete en cours
+			objetXHR4.abort();
+			objetXHR4 = null;
+		}
+	}
+}
+
 
 function creationXHR(){
 	/* ------- creation de l'objet XHR en fonction du navigateur ----*/
@@ -198,6 +253,8 @@ function actualiserPage2(){
 	}
 
 	gebi("imageWait").style.visibility = "hidden";
+	 
+		 $( document ).tooltip();
 }
 
 

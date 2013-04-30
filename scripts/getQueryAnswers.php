@@ -16,10 +16,10 @@
 			echo getQueryAnswers($_REQUEST['query']);
 		}
 	else{
-		echo "échec de l'éxecution de la requète AJAX. La requete GET est empty";
+		echo "Failed to execute Ajax instruction. GET request is empty";
 	}
 	}
 	else{
-		echo "échec de l'éxecution de la requète AJAX. La requete GET est null";
+		echo "Failed to execute Ajax instruction. GET request is null";
 	}
 ?>
