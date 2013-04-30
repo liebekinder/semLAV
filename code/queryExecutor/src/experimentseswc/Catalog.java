@@ -119,7 +119,7 @@ public class Catalog {
         if (!none) {
             name = name+end;
         }
-        System.out.println("view name: "+name);
+        System.out.println(name);
         return getModel(name);
 	}
 
