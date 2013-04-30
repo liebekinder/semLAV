@@ -3,6 +3,9 @@ function displayView(val){
 	//contient aussi les diverses modification qu'on peut apporter aux fichiers: affichage, compression, suppression...
 	/* ------ MOTEUR AJAX -----------*/
 	
+//	$("#laDiv").attr("title", val);
+	gebi("ui-id-1").innerHTML = val;
+//	gebi("laDiv").title = val;
 	//creation d'un objet XHR
 	objetXHR3 = null;
 	objetXHR3 = creationXHR();
@@ -35,12 +38,14 @@ function actualiserPage3(){
 			//modification de la page
 			gebi("laDiv").innerHTML = nouveauResultat;
 			
+			
 			//on cache le loader et on debloque le bouton et on affiche le resultat
-
+			
+			$("#laDiv").dialog("open");
 		}
 		else{
 			gebi("laDiv").innerHTML = "erreur serveur: "+ objetXHR3.status +" - "+ objetXHR3.statusText;
-			
+			$("#laDiv").dialog("open");
 			//annule la requete en cours
 			objetXHR3.abort();
 			objetXHR3 = null;
