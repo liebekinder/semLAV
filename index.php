@@ -11,9 +11,19 @@
 		<script type="text/javascript">
 		$(function () {
 			$("#querySelector").buttonset();
-			$("button").button();
+			$("button, a").button();
 			$(".lquery").attr("class", "lquery ui-button ui-widget ui-state-default ui-button-text-only");
 			$("#buttonExec").button("option", "disabled", true);
+		});
+
+		$(function () {
+			$("#laDiv").dialog({
+				modal:true,
+				autoOpen:false,
+				width: 480,
+				height: 320,
+				resizable: false
+			});
 		});
 		
 	</script>
@@ -43,8 +53,19 @@
     	</div>
     </div>
     
+    <div id="laDiv">
+<!-- 		<textarea readonly>PREFIX ex:&lt;http://example.org/hotel/&gt; -->
+<!-- 		SELECT * WHERE { -->
+<!-- 		    ?Hotel ex:hasName ?Name . -->
+<!-- 		    ?Hotel ex:hasPostalCode ?PC . -->
+<!-- 		    ?Hotel ex:hasAddress ?Address . -->
+<!-- 		} -->
+		
+<!-- 		</textarea> -->
+	</div>
+    
 </body>
 
-<div id="laDiv"></div>
+
 
 </html>

@@ -20,7 +20,7 @@ function getViewContent($queryName){
 		}
 		fclose($fp); // On ferme le fichier
 	}
-	return "<textarea readonly>".$Fichier."</textarea>";
+	return "<textarea readonly style=\"width:440px; height:250px; resize:none;\">".$Fichier."</textarea>";
 }
 
 function getQueryContent($queryName){
