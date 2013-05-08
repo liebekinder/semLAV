@@ -52,7 +52,7 @@ function getQueryAnswers($queryNumber){
 	putenv("GUNPATH = /var/www/semLAV/code/");
 	chdir("/var/www/semLAV/code/queryExecutor/src");
 	
-	$cmd = "sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber $queryNumber";
+// 	$cmd = "sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber $queryNumber";
 // 	echo $cmd;
 	$output = shell_exec("sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber");
 // 	$output = shell_exec("ls");
