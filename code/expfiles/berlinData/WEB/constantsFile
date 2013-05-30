@@ -1,0 +1,17 @@
+constant15	http://example.org/activite/hasName
+constant16	http://example.org/hotel/hasMail
+constant10	http://example.org/activite/hasMail
+constant2	http://example.org/activite/acceptHearingImpairment
+constant11	http://example.org/activite/hasWebSite
+constant12	http://example.org/hotel/hasName
+constant3	http://example.org/activite/hasAddress
+constant13	http://example.org/hotel/hasPostalCode
+constant0	http://example.org/hotel/hasWebSite
+constant14	http://example.org/hotel/hasAddress
+constant1	http://example.org/activite/acceptVisualImpairment
+constant7	http://dbpedia.org/property/name
+constant6	http://dbpedia.org/ontology/postalCode
+constant5	http://example.org/activite/hasTown
+constant4	http://example.org/activite/hasPostalCode
+constant9	http://dbpedia.org/resource/Loire-Atlantique
+constant8	http://dbpedia.org/ontology/department

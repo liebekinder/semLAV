@@ -1,8 +1,0 @@
-PREFIX onto: <http://example.org/activite/>
-
-SELECT *
-WHERE
-{
-    ?Lieu onto:acceptVisualImpairment ?Vi.
-    ?Lieu onto:acceptHearingImpairment ?Hi.
-}

@@ -1,1 +1,0 @@
-query3(Lieu, Name, Address, PostalCode, Town) :- hasnameo(Lieu, Name), hasaddresso(Lieu, Address), haspostalcodeo(Lieu, PostalCode), hastowno(Lieu, Town)

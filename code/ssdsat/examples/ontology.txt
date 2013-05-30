@@ -1,2 +1,0 @@
-graduate(X) <= student(X,grad)
-undergrad(X) <= student(X,ugrad)

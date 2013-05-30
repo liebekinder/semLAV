@@ -1,7 +1,6 @@
 import java.util.*;
 import java.io.*;
 
-// java processAnswersSemLAV /home/gabriela/gun2012/code/expfiles/berlinOutput/FiveThousand/300views/outputRelViewsquery1/NOTHING
 class processAnswersSemLAV {
 
     public static HashSet<Integer> readChanges(String fileName) {
@@ -20,8 +19,10 @@ class processAnswersSemLAV {
                 change.add(id);
                 l = br.readLine();
             }
+            br.close();
         } catch (IOException ioe) {
-            System.err.println("Error reading file "+fileName);
+            //ioe.printStackTrace();
+            //System.err.println("Error reading file "+fileName);
         }
         return change;
     }
@@ -34,14 +35,14 @@ class processAnswersSemLAV {
             String l = null;
             l = br.readLine();
             while (l != null) {
-                //System.out.println("l: "+l);
                 ArrayList<String> m = getMapping(l);
-                //System.out.println("m: "+m);
                 solution.add(m);
                 l = br.readLine();
             }
+            br.close();
         } catch (IOException ioe) {
-            System.err.println("Error reading file "+file);
+            //ioe.printStackTrace();
+            //System.err.println("Error reading file "+file);
         }
         return solution;
     }
@@ -71,7 +72,6 @@ class processAnswersSemLAV {
 
     public static void main (String[] args) {
 
-        //System.out.println("start");
         String folder = args[0];
         String file = folder + "/throughput";
         String out = folder + "/answersInfo";
@@ -82,7 +82,6 @@ class processAnswersSemLAV {
         HashSet<ArrayList<String>> previous = new HashSet<ArrayList<String>>();
         HashSet<ArrayList<String>> previousRVi = new HashSet<ArrayList<String>>();
         HashSet<Integer> change = readChanges(rvi);
-        //System.out.println("changes: "+change);
         try {
             BufferedReader br = new BufferedReader(new FileReader(file));
             String l = null;
@@ -96,7 +95,6 @@ class processAnswersSemLAV {
                     continue;
                 }
                 int id = takeID(l);
-                //System.out.println("id: "+id);
                 if (id == prevId) {
                     hasAnswers = true;
                 } else {
@@ -107,7 +105,6 @@ class processAnswersSemLAV {
                 }
                 if (hasAnswers) {
                     HashSet<ArrayList<String>> current = loadSolution(folder+"/solution"+id);
-                    //System.out.println("solution size: "+current.size());
                     int a = current.size();
                     HashSet<ArrayList<String>> tempSet = new HashSet<ArrayList<String>>();
                     tempSet.addAll(current);
@@ -123,11 +120,15 @@ class processAnswersSemLAV {
                     int e = previous.size();
                     output.write(id+"\t"+a+"\t"+b+"\t"+c+"\t"+d+"\t"+e+"\n");
                     output.flush();
+                    //File f = new File(folder+"/solution"+id);
+                    //f.delete();
                }
                l = br.readLine();
            }
            output.close();
+           br.close();
         } catch (IOException ioe) {
+            ioe.printStackTrace();
             System.err.println("Error reading file "+file);
         }
     }

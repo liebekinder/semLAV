@@ -1,0 +1,4 @@
+# File Id	Number of views considered	Wrapper Time (milliseconds)	Graph Creation Time (milliseconds)	Execution Time (milliseconds)	Total Time (milliseconds)	Graph Size (statements)
+0	2	3403	27	175	3615	876	1
+0	2	3403	27	217	3764	876	[view9_0(X,PC,Ville), view1_0(Hotel,Name,PC,Address)]
+# Graph Size in bytes: 91800

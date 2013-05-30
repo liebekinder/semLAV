@@ -1,8 +1,0 @@
-view1_0(Hotel, Name, PC, Address) :- hasname(Hotel, Name), haspostalcode(Hotel, PC), hasaddress(Hotel, Address)
-view2_0(Hotel, Mail) :- hasmail(Hotel, Mail)
-view3_0(Hotel, WebSite) :- haswebsite(Hotel, WebSite)
-view5_0(Lieu, Address, PostalCode, Town) :- hasaddresso(Lieu, Address), haspostalcodeo(Lieu, PostalCode), hastowno(Lieu, Town)
-view6_0(Lieu, Mail, WebSite) :- hasmailo(Lieu, Mail), haswebsiteo(Lieu, WebSite)
-view7_0(Lieu, Vi, Hi) :- acceptvisualimpairment(Lieu, Vi), accepthearingimpairment(Lieu, Hi)
-view8_0(Lieu, Name) :- hasnameo(Lieu, Name)
-view9_0(X, Ville, PC) :- postalcode(X, PC), hastownname(X,Ville)

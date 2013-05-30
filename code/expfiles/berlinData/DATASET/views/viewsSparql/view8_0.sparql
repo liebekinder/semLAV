@@ -1,7 +1,0 @@
-PREFIX onto: <http://example.org/activite/>
-
-SELECT *
-WHERE
-{
-    ?Lieu onto:hasName ?Name .
-}

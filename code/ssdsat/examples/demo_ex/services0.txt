@@ -1,5 +1,0 @@
-natflight(X, Y) :- flight(X, Y, T), uscity(X), uscity(Y)
-onewayflight(X, Y):-flight(X, Y, T)
-nattrain(X,Y):-train(X, Y, T), uscity(X), uscity(Y)
-topa(X) :- flight(X, paris, aa)
-fromla(X) :- flight(la, X, ua)

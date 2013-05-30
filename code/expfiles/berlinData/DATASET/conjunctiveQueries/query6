@@ -1,1 +1,0 @@
-query6(Hotel, Name, PC, Ville, X) :- hasname(Hotel, Name), haspostalcode(Hotel, PC), postalcode(X, PC), townname(X,Ville)

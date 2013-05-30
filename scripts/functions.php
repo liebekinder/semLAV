@@ -2,7 +2,7 @@
 
 function getViewContent($queryName){
 	$Fichier="";
-	if (!$fp = fopen("../code/expfiles/berlinData/DATASET/views/viewsSparql/$queryName.sparql","r")) {
+	if (!$fp = fopen("../code/expfiles/berlinData/WEB/viewsSparql/$queryName.sparql","r")) {
 		echo "Failed to open file".$fic;	
 		exit;	
 	}	
@@ -25,7 +25,7 @@ function getViewContent($queryName){
 
 function getQueryContent($queryName){
 	$Fichier="";
-	if (!$fp = fopen("../code/expfiles/berlinData/DATASET/sparqlQueries/$queryName.sparql","r")) {
+	if (!$fp = fopen("../code/expfiles/berlinData/WEB/sparqlQueries/$queryName.sparql","r")) {
 		echo "Failed to open file".$fic;
 		exit;
 	}
@@ -49,7 +49,7 @@ function getQueryContent($queryName){
 function getQueryAnswers($queryNumber){
 	//execute semlavBerlindata
 // 	echo getcwd();
-	putenv("GUNPATH = /var/www/semLAV/code/");
+	putenv("SemLAVPATH = /var/www/semLAV/code/");
 	chdir("/var/www/semLAV/code/queryExecutor/src");
 	
 // 	$cmd = "sh /var/www/semLAV/code/queryExecutor/src/runBerlinSemLAV.sh $queryNumber $queryNumber";
@@ -73,17 +73,30 @@ function analyseQueryAnswers($queryNumber, $output){
 	$exectime = "NA";
 	
 	$tab = explode("\t",getTimeAndSize($queryNumber));
+	//var_dump($tab);
 	if(strlen($tab[0]) <=2){
 		$graphsize = $tab[6];
 		$graphtime = $tab[5];
 		$wrapertime = $tab[2];
 		$graphcreation = $tab[3];
 		$exectime = $tab[4];
+		$temp = $tab[7];
 	}
+	
+	$views = array();	
+	$del = array(',', '(', '[', ')', '[', ' ');
+	$uneVue = explode( $del[0], str_replace($del, $del[0], $temp) );
+	foreach ($uneVue as $uneVueTemp){
+		if(strpos($uneVueTemp,"view") !== FALSE){
+			$views[] = $uneVueTemp;
+		}
+	}
+	//var_dump($uneVue);
+	
 	
 	$nbanswers = getNbAnswers($queryNumber);
 
-	$views = explode("\n", $output);
+	//$views = explode("\n", $output);
 	
 // 	$firstanswers = explode ("\n", getAnswers($queryNumber));
 	
@@ -91,13 +104,16 @@ function analyseQueryAnswers($queryNumber, $output){
 	return displayQueryanswer($queryNumber, $wrapertime, $graphcreation, $exectime, $graphsize, $graphtime, $nbanswers, $views);
 }
 
+
 function getTimeAndSize($queryNumber){
 	sleep(20);
 	//throughput
+	$lignePrePre="";
 	$lignePre="";
+	$Ligne="";
 	// 	echo getcwd();
-	$fic = "/var/www/semLAV/code/expfiles/berlinOutput/DATASET/views/outputRelViewsquery$queryNumber/NOTHING/throughput";
-	// 	echo $fic;
+	$fic = "/var/www/semLAV/code/expfiles/berlinOutput/WEB/outputSemLAVquery".$queryNumber."_20480m_exec1/NOTHING/throughput";
+// 	echo $fic;
 	if (!$fp = fopen($fic,"r")) {
 		echo "Failed to open file".$fic;
 		exit;
@@ -110,19 +126,21 @@ function getTimeAndSize($queryNumber){
 			// On affiche la ligne
 			//echo $Ligne;
 			if(strlen($Ligne)>10){
+				$lignePrePre = $lignePre;
 				$lignePre = $Ligne;
 			}
 	
 		}
 		fclose($fp); // On ferme le fichier
-		
 	}
-	return $lignePre;
+	
+	return $lignePrePre;
 }
+
 function getNbAnswers($queryNumber){
 	$lignePre="";
 	// 	echo getcwd();
-	$fic = "/var/www/semLAV/code/expfiles/berlinOutput/DATASET/views/outputRelViewsquery$queryNumber/NOTHING/answersInfo";
+	$fic = "/var/www/semLAV/code/expfiles/berlinOutput/WEB/outputSemLAVquery".$queryNumber."_20480m_exec1/NOTHING/answersInfo";
 	// 	echo $fic;
 	if (!$fp = fopen($fic,"r")) {
 		echo "Failed to open number of answers file".$fic;
@@ -153,10 +171,10 @@ function getNbAnswers($queryNumber){
 function getResponseContent($queryNumber){
 	$Fichier="";
 	if($queryNumber == 1){
-		$fic = "/var/www/semLAV/code/expfiles/berlinOutput/DATASET/views/outputRelViewsquery$queryNumber/NOTHING/solution1";
+		$fic = "/var/www/semLAV/code/expfiles/berlinOutput/WEB/outputSemLAVquery".$queryNumber."_20480m_exec1/NOTHING/solution0";
 	}
 	else{
-		$fic = "/var/www/semLAV/code/expfiles/berlinOutput/DATASET/views/outputRelViewsquery$queryNumber/NOTHING/solution0";
+		$fic = "/var/www/semLAV/code/expfiles/berlinOutput/WEB/outputSemLAVquery".$queryNumber."_20480m_exec1/NOTHING/solution0";
 	}
 	if (!$fp = fopen($fic,"r")) {
 		echo "Failed to open answer file".$fic;
@@ -178,7 +196,7 @@ function getResponseContent($queryNumber){
 	}
 // 	$firstanswers = explode ("\n", getAnswers($queryNumber));
 	
-	return "<div>".nl2br($Fichier)."</div>";
+	return "<div>".nl2br(htmlentities($Fichier))."</div>";
 }
 
 function displayQueryanswer($queryNumber, $wrapertime, $graphcreation, $exectime, $graphsize, $graphtime, $nbanswers, $views){

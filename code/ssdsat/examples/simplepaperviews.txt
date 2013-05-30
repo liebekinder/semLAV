@@ -1,8 +1,0 @@
-nationalflight(X, Y):-flight(X, Y, T), uscity(X), uscity(Y)
-aaflight(A, B):-flight(A, B, aa)
-uaflight(C, D):-flight(C, D, ua)
-onewayflight(E, F):-flight(E, F, G)
-onestop(H, I):-flight(H, J, K), flight(J, I, K)
-topa(L):-flight(L, paris, aa)
-frompa(M):-flight(paris,M,ua)
-fromla(N):-flight(la, N, ua)

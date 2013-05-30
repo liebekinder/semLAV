@@ -1,21 +1,19 @@
 # input
-# dataSetFile=GUNPATH/code/expfiles/berlinData/datasets/dataset.nt
-# indexesFolder=GUNPATH/code/expfiles/berlinData/sparqlIndexes
-# queriesFolder=GUNPATH/code/expfiles/berlinData/sparqlQueries
-dataSetFile=GUNPATH/code/expfiles/berlinData/DATASET/datasets/dataset.nt
-indexesFolder=GUNPATH/code/expfiles/berlinData/DATASET/sparqlIndexes
-queriesFolder=GUNPATH/code/expfiles/berlinData/DATASET/sparqlQueries
-factor=1
-n=7
+dataSetFile=SemLAVPATH/expfiles/berlinData/datasets/dataset1.nt
+indexesFolder=SemLAVPATH/expfiles/berlinData/sparqlIndexes
+#queriesFolder=SemLAVPATH/expfiles/berlinData/originalSparqlQueriesInstantiated
+queriesFolder=SemLAVPATH/expfiles/berlinData/sparqlQueries
+factor=34
+n=15
 # output data
-sparqlViewsFolder=GUNPATH/code/expfiles/berlinData/DATASET/views/viewsSparql
-n3ViewsFolder=GUNPATH/code/expfiles/berlinData/DATASET/views/viewsN3
-answersFolder=GUNPATH/code/expfiles/berlinData/DATASET/answers
+sparqlViewsFolder=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsSparql
+n3ViewsFolder=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsN3
+n3ViewsFolderIn=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsN3
+n3ViewsFolderOut=SemLAVPATH/expfiles/berlinData/DATASET/75views/viewsInstantiatedN3
+answersFolder=SemLAVPATH/expfiles/berlinData/DATASET/answers
 # output mappings
-mappingsFile=GUNPATH/code/expfiles/berlinData/DATASET/views/mappingsBerlin
-conjunctiveQueriesFolder=GUNPATH/code/expfiles/berlinData/DATASET/conjunctiveQueries
-constantsFile=GUNPATH/code/expfiles/berlinData/DATASET/constantsFile
-
-
-#n3OntologyFile=GUNPATH/code/expfiles/berlinData/ontology.n3
-#ontologyFile=GUNPATH/code/expfiles/berlinData/ontology
+mappingsFile=SemLAVPATH/expfiles/berlinData/DATASET/75views/mappingsBerlin
+conjunctiveQueriesFolder=SemLAVPATH/expfiles/berlinData/conjunctiveQueries
+constantsFile=SemLAVPATH/expfiles/berlinData/DATASET/75views/constantsFile
+#n3OntologyFile=SemLAVPATH/expfiles/berlinData/ontology.n3
+#ontologyFile=SemLAVPATH/expfiles/berlinData/ontology

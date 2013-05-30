@@ -1,9 +1,0 @@
-PREFIX onto: <http://example.org/activite/>
-
-SELECT *
-WHERE
-{
-    ?Lieu onto:hasAddress ?Address .
-    ?Lieu onto:hasPostalCode ?PostalCode .
-    ?Lieu onto:hasTown ?Town .
-}

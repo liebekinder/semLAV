@@ -1,1 +1,0 @@
-q(X1,X2) :- flight(X1,X2),flight(X2,X1),uscity(X1)
